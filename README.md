@@ -316,12 +316,9 @@ We welcome contributions! Please follow this format to add a paper:
 ## 🔗 Citation
 If you find this repository useful for your research, please cite:
 ```bibtex
-@misc{zhang2026generalistgameplayersinvestigation,
-      title={Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse}, 
-      author={Kuan Zhang and Dongchen Liu and Qiyue Zhao and Tianyu Xin and Yue Su and Haisheng Wang and Han Yin and Hongbo Ma and Peize Li and Tianjun Gu and Xiangnan Wu and Xinran Zhang and Yongxuan Li and Zirong Chen and Yiming Li},
-      year={2026},
-      eprint={2605.09965},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2605.09965}, 
+@article{zhang2026towards,
+  title={Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse},
+  author={Zhang, Kuan and Liu, Dongchen and Zhao, Qiyue and Xin, Tianyu and Su, Yue and Wang, Haisheng and Yin, Han and Ma, Hongbo and Li, Peize and Gu, Tianjun and others},
+  journal={arXiv preprint arXiv:2605.09965},
+  year={2026}
 }
