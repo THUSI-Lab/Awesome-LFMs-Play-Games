@@ -1,0 +1,153 @@
+1
+00:00:00,200 --> 00:00:03,680
+Imagine one player entering
+an unfamiliar world.
+想象一个玩家走进陌生的世界。
+
+2
+00:00:04,120 --> 00:00:07,680
+How can foundation models
+learn from failure, recover,
+基础模型如何从失败中学习、恢复，
+
+3
+00:00:08,060 --> 00:00:10,680
+and carry that experience into the next game?
+并将这份经验带入下一个游戏？
+
+4
+00:00:11,420 --> 00:00:12,880
+It starts by interacting:
+一切始于交互：
+
+5
+00:00:13,220 --> 00:00:16,220
+observing, acting, and
+discovering what follows.
+观察、行动，再去发现结果。
+
+6
+00:00:16,900 --> 00:00:19,630
+Success and failure can
+reveal where a strategy works,
+成功与失败可以揭示策略何时有效，
+
+7
+00:00:19,640 --> 00:00:22,380
+and what the next attempt should change.
+以及下一次尝试该如何调整。
+
+8
+00:00:22,775 --> 00:00:25,995
+But growth also depends on
+the worlds we learn from.
+但成长也取决于我们从中学习的世界。
+
+9
+00:00:26,635 --> 00:00:29,725
+Stable rules, persistent
+state, meaningful goals,
+稳定的规则、持续的状态、有意义的目标，
+
+10
+00:00:29,735 --> 00:00:33,595
+and reliable feedback give
+each decision consequences.
+以及可靠的反馈，让每个决策都产生后果。
+
+11
+00:00:34,515 --> 00:00:37,495
+Our survey connects four
+pillars around the player:
+我们的综述以玩家为中心，连接四个支柱：
+
+12
+00:00:37,915 --> 00:00:41,195
+datasets for experience,
+models for capability,
+数据集提供经验，模型承载能力，
+
+13
+00:00:41,535 --> 00:00:44,875
+harnesses for interaction,
+and benchmarks for evidence.
+运行框架支持交互，基准测试提供证据。
+
+14
+00:00:45,640 --> 00:00:47,060
+Growth can take two paths.
+成长可以沿着两条路径展开。
+
+15
+00:00:47,520 --> 00:00:49,240
+Training updates model weights;
+训练会更新模型权重；
+
+16
+00:00:49,520 --> 00:00:54,160
+with weights fixed, feedback can still
+reshape memory, beliefs, and plans.
+权重固定时，反馈仍能调整记忆、判断与计划。
+
+17
+00:00:54,640 --> 00:00:56,680
+Each path needs different evidence.
+每条路径都需要不同的证据。
+
+18
+00:00:57,280 --> 00:00:59,600
+Now change the layout, controls, or goal.
+现在，改变地图、操作方式或目标。
+
+19
+00:01:00,080 --> 00:01:01,860
+Familiar strategies may break,
+熟悉的策略可能失效，
+
+20
+00:01:01,900 --> 00:01:05,620
+opening new opportunities to
+adapt as the challenges expand.
+而不断扩展的挑战，也带来了新的适应机会。
+
+21
+00:01:06,360 --> 00:01:08,300
+So how do we know the player improved?
+那么，如何知道玩家真的进步了？
+
+22
+00:01:09,025 --> 00:01:12,185
+Measure depth, coverage
+at a stated skill level,
+衡量能力深度，以及既定能力标准下的覆盖范围，
+
+23
+00:01:12,225 --> 00:01:14,665
+and transfer to unseen games.
+以及向未见游戏的迁移。
+
+24
+00:01:15,065 --> 00:01:18,425
+Verify those gains on
+fresh, independent episodes.
+再用全新且独立的游戏回合验证这些进步。
+
+25
+00:01:19,125 --> 00:01:21,335
+Explore Towards Generalist Game Players
+阅读《迈向通用游戏玩家》，
+
+26
+00:01:21,345 --> 00:01:23,425
+and our living research collection.
+探索我们持续更新的研究合集。
+
+27
+00:01:23,845 --> 00:01:25,755
+Discover the players that learn to act,
+关注学会行动的玩家，
+
+28
+00:01:25,765 --> 00:01:28,045
+and the worlds that help them grow.
+以及帮助它们成长的世界。
