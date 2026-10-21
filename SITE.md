@@ -23,7 +23,7 @@ node --test tests/*.test.mjs
 git diff --check
 ```
 
-Tests require Node.js 22 or later; no package installation is necessary. Check the page at desktop and mobile widths, including category tabs, combined literature filters, empty results, pagination, citation copying, and each transfer-lab scenario. The lab reports scripted behavior, never foundation-model benchmark results.
+Tests require Node.js 22 or later; no package installation is necessary. Check the page at desktop and mobile widths, including chapter navigation, pillar links, combined literature filters, empty results, pagination, citation copying, and each transfer-lab scenario. The lab reports scripted behavior, never foundation-model benchmark results.
 
 ## GitHub Pages
 

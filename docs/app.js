@@ -4,20 +4,6 @@ import {filterEntries, safeLink} from './catalog-tools.js';
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const pillarData = {
-  Dataset: {number:'01', mode:'EXPERIENCE → CAPABILITY', question:'What experience can the player learn from?', description:'Gameplay trajectories connect observations, goals, actions, and outcomes. Their scale, action fidelity, and game diversity determine which behaviors the model has a chance to acquire.', tags:['Demonstrations','Action alignment','Failures & recovery'], anchors:[['NitroGen','https://arxiv.org/abs/2601.02427'],['GameHorizon Suite','https://arxiv.org/abs/2609.25001']]},
-  Model: {number:'02', mode:'PERCEPTION → DECISION → ACTION', question:'What can the player understand and do?', description:'Language, vision, action, and world models contribute reasoning, perception, control, and prediction. Shared representations must transfer useful skills while preserving the precision each game requires.', tags:['LLM / VLM','Action policies','World-aware decisions'], anchors:[['Odysseus','https://arxiv.org/abs/2605.00347'],['GameWAM','https://arxiv.org/abs/2608.26200'],['Player-1','https://arxiv.org/abs/2610.20584']]},
-  Harness: {number:'03', mode:'CAPABILITY → RELIABLE INTERACTION', question:'How does the player turn capability into play?', description:'Perception tools, memory, planning, and action interfaces turn model outputs into an effective policy. Their information access, latency, and recovery behavior shape what the deployed agent can achieve.', tags:['Memory & planning','Action grounding','Real-time control'], anchors:[['Voyager','https://arxiv.org/abs/2305.16291'],['AgenticSTS','https://arxiv.org/abs/2607.02255']]},
-  Benchmark: {number:'04', mode:'INTERACTION → EVIDENCE', question:'What evidence shows that the player improved?', description:'Game suites and evaluation protocols probe competence, coverage, and transfer. Declared interfaces, held-out games, repeated trials, and time budgets make the resulting claims interpretable.', tags:['Competence','Coverage','Transfer'], anchors:[['OmniGameArena','https://arxiv.org/abs/2606.09826'],['SpireBench','https://arxiv.org/abs/2610.12596']]}
-};
-const roadmapData = [
-  {title:'Master one game',description:'Compose atomic skills into reliable long-horizon behavior across held-out goals, task chains, and seeds.',evidence:'Complete long task chains within the time budget and recover from intermediate failures.'},
-  {title:'Transfer within a genre',description:'Carry useful skills into games with related interfaces and interaction structure, while testing genuinely new mechanics.',evidence:'High held-out coverage with the same checkpoint and protocol, without per-title retuning.'},
-  {title:'Cross game boundaries',description:'Sustain competence when observations, controls, dynamics, and time scales change across distinct games.',evidence:'Strong performance on independently authored held-out games, with earlier skills retained.'},
-  {title:'Adapt through experience',description:'Use bounded interaction with an unfamiliar game to improve behavior and preserve competence in previously encountered worlds.',evidence:'Before-and-after evaluations on fresh episodes, with fixed-weight adaptation separated from continued training.'},
-  {title:'Grow with new worlds',description:'Expand the environments and curricula available to a player, using generated worlds with reliable rules, persistent state, and checkable goals.',evidence:'Independently validate the worlds, then show that their experience improves player performance in held-out code-engine games.',prospective:true}
-];
-
 $('.menu-toggle').addEventListener('click', () => {
   const open = $('.menu-toggle').getAttribute('aria-expanded') !== 'true';
   $('.menu-toggle').setAttribute('aria-expanded', String(open));
@@ -28,46 +14,6 @@ $$('#main-nav a').forEach(link => link.addEventListener('click', () => {
 }));
 document.addEventListener('keydown', event => { if(event.key === 'Escape') { $('.menu-toggle').setAttribute('aria-expanded','false'); $('#main-nav').classList.remove('open'); } });
 
-function wireTabs(selector, render) {
-  const tabs = $$(selector);
-  const activate = tab => {
-    tabs.forEach(t => { t.setAttribute('aria-selected', String(t === tab)); t.tabIndex = t === tab ? 0 : -1; });
-    render(tab);
-  };
-  tabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => activate(tab));
-    tab.addEventListener('keydown', event => {
-      let next;
-      if(['ArrowRight','ArrowDown'].includes(event.key)) next = (index + 1) % tabs.length;
-      else if(['ArrowLeft','ArrowUp'].includes(event.key)) next = (index - 1 + tabs.length) % tabs.length;
-      else if(event.key === 'Home') next = 0;
-      else if(event.key === 'End') next = tabs.length - 1;
-      if(next !== undefined) { event.preventDefault(); activate(tabs[next]); tabs[next].focus(); }
-    });
-  });
-}
-
-wireTabs('.pillar-tabs [role="tab"]', tab => {
-  const name = tab.dataset.pillar, data = pillarData[name];
-  $('#pillar-panel').setAttribute('aria-labelledby',tab.id);
-  $('#pillar-label').textContent = `${data.number} / ${name.toUpperCase()}`;
-  $('#diagram-mode').textContent = data.mode;
-  $('#pillar-question').textContent = data.question;
-  $('#pillar-description').textContent = data.description;
-  $('#pillar-tags').innerHTML = data.tags.map(tag => `<span>${escapeHtml(tag)}</span>`).join('');
-  $('#pillar-anchors').innerHTML = data.anchors.map(([label,url]) => `<a href="${url}">${escapeHtml(label)} ↗</a>`).join('');
-  $('#pillar-library-link').innerHTML = `Explore ${name} works <span>→</span>`;
-  $('#pillar-library-link').dataset.category = name;
-  $$('.orbit-node').forEach(node => node.classList.toggle('active',node.dataset.node === name));
-});
-wireTabs('.roadmap-tabs [role="tab"]', tab => {
-  const index = Number(tab.dataset.stage), data = roadmapData[index];
-  $('#roadmap-panel').setAttribute('aria-labelledby',tab.id);
-  $('#roadmap-label').textContent = `STAGE 0${index + 1}${data.prospective ? ' · PROSPECTIVE' : ''}`;
-  $('#roadmap-name').textContent = data.title;
-  $('#roadmap-description').textContent = data.description;
-  $('#roadmap-test').textContent = data.evidence;
-});
 initTransferLab($('#transfer-lab'));
 
 let fullCitation = $('#citation-text').textContent;
@@ -133,8 +79,8 @@ $('#load-more').addEventListener('click',() => {
   const firstNew = $$('.paper-row')[previousShown];
   if(firstNew) { const focusTarget=firstNew.querySelector('h3 a') || firstNew; if(focusTarget===firstNew) focusTarget.tabIndex=-1; focusTarget.focus({preventScroll:true}); }
 });
-$('#pillar-library-link').addEventListener('click',event => changeFilter('category',event.currentTarget.dataset.category || 'Dataset'));
-$('[data-update-link]').addEventListener('click',() => { Object.assign(state,{category:'All',query:'',year:'all',updateOnly:true,focus:'all'}); shown=12; renderCatalog(); });
+$$('[data-library-category]').forEach(link => link.addEventListener('click',event => changeFilter('category',event.currentTarget.dataset.libraryCategory)));
+$$('[data-update-link]').forEach(link => link.addEventListener('click',() => { Object.assign(state,{category:'All',query:'',year:'all',updateOnly:true,focus:'all'}); shown=12; renderCatalog(); }));
 window.addEventListener('popstate',() => { readUrl(); shown=12; renderCatalog(false); });
 fetch('data/catalog.json').then(response => { if(!response.ok) throw Error('Catalog unavailable'); return response.json(); }).then(data => {
   catalog = data.entries;

@@ -96,3 +96,9 @@
 @media (prefers-reduced-motion: reduce) {
   .transfer-lab *, .transfer-lab *::before, .transfer-lab *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+
+@container (max-width: 740px) {
+  .transfer-lab .tl-workspace { grid-template-columns: 1fr; }
+  .transfer-lab .tl-grid { max-width: 360px; }
+  .transfer-lab .tl-scenarios { grid-template-columns: repeat(2, 1fr); }
+}
