@@ -1,42 +1,54 @@
-# Awesome-LFMs-Play-Games
-
-### Towards Generalist Game Players: A Survey of Foundation Models in the Multiverse of Games
-
 <p align="center">
-    <img src="https://img.shields.io/badge/PRs-Welcome-red" alt="PRs Welcome">
-    <img src="https://img.shields.io/badge/Awesome-LFMs--Play--Games-blue" alt="Awesome">
-    <img src="https://img.shields.io/badge/License-Apache2.0-green" alt="License">
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/">
+    <img src="docs/assets/repository-banner.svg" alt="Towards Generalist Game Players — players that learn to act, worlds that help them grow" width="100%">
+  </a>
 </p>
 
-🔥 **Best papers on Large Foundation Models (LLMs · VLMs · VLAs · VAs · WMs · WAMs) as Game Players.**
+# Towards Generalist Game Players
+### A Survey of Foundation Models in the Game Multiverse
 
-A curated and comprehensive list of research papers and resources focusing on **Large Foundation Models acting as Game Players**, covering four pillars: dataset, model, harness and benchmark.
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.09965">📄 Paper</a> &nbsp;·&nbsp;
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/">🌐 Project page</a> &nbsp;·&nbsp;
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#library">🔎 Search the collection</a> &nbsp;·&nbsp;
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#environments">🧭 Explore transfer</a> &nbsp;·&nbsp;
+  <a href="CONTRIBUTING.md">↗ Contribute</a>
+</p>
 
-This repository covers the evolution from specific and simple environments to complex and general environment interaction.
+**Foundation models as players. Game worlds as environments for learning.**
 
-**Note: This list primarily features research from 2025 onwards. To keep the list concise, we only maintain a few representative classic works from previous years.**
+How does one player become more capable across a wider range of games? This collection follows the experience it learns from, the capabilities it acquires, the system it acts through, and the evidence used to evaluate its progress.
 
-**Literature update — 2026-10-21:** Added 32 selected works beyond the survey's April 2026 cutoff, including Video-Arena, Scaling in Games / GameScaling, SPIKE, Odysseus, Player-1, GameHorizon Suite, GameWAM, Matrix-Game 4.0, OmniGameArena, AgenticSTS, and recent Slay the Spire benchmarks. Dates and their precision, summaries, official sources, release status, and name-disambiguation notes are recorded in the [October 2026 literature catalog](data/literature-2026-10.json).
+Our focus is **players and the environments that help them grow**: interaction, planning, memory, control, adaptation, and transfer. World models and generated environments are included for their potential to support player training, planning, or evaluation. Their value depends on reliable interaction and measurable player improvement.
 
-**Classification:** Dataset covers corpora and explicitly labeled data-scaling studies; Model covers learned policies and world models; Harness covers planning, memory, control, and adaptation around models; Benchmark covers evaluation protocols. Works with substantive contributions to multiple pillars are cross-listed. World simulators are distinguished from action policies, and recorded-video understanding from closed-loop gameplay. Coachable agents is labeled as related non-LFM reinforcement-learning research.
+The collection accompanies **Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse**. The [public arXiv preprint](https://arxiv.org/abs/2605.09965) retains the title *An Investigation of Foundation Models in the Game Multiverse*.
 
-**Dates and availability:** New entries use the first arXiv submission month, or the official project/report release month where indicated in the catalog. Dataset rows inherit their associated paper's date, not necessarily the download release date. “Repository” may be a project placeholder; pending code, weights, and data are labeled explicitly. GameScaling currently links to its official PDF (arXiv forthcoming). Player-1 resources, GameHorizon code/data, and WorldMind/BOSS-140K releases remain pending as of this update.
+**Kuan Zhang\*, Dongchen Liu\*, Qiyue Zhao\*, Tianyu Xin\*, Yue Su\***, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li†<br>
+Tsinghua University · The University of Hong Kong · University of Chinese Academy of Sciences<br>
+\* Equal contribution · † Corresponding author
 
----
+## Choose a research pillar
 
-## 📑 Table of Contents
-- [Awesome-LFMs-Play-Games](#awesome-lfms-play-games)
-    - [Towards Generalist Game Players: A Survey of Foundation Models in the Multiverse of Games](#towards-generalist-game-players-a-survey-of-foundation-models-in-the-multiverse-of-games)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [🤖 Model](#-model)
-  - [🔧 Harness](#-harness)
-  - [💾 Dataset](#-dataset)
-  - [📊 Benchmark](#-benchmark)
-  - [🔍 Survey](#-survey)
-  - [🚀 Challenges \& Future Directions](#-challenges--future-directions)
-  - [🤝 Contribution](#-contribution)
-  - [🔗 Citation](#-citation)
+| Pillar | The question | Explore |
+| :--- | :--- | :--- |
+| **Dataset** | What experience can the player learn from? | [Reading list](#-dataset) · [Interactive collection](https://thusi-lab.github.io/Awesome-LFMs-Play-Games/?pillar=Dataset#library) |
+| **Model** | What can the player understand and do? | [Reading list](#-model) · [Interactive collection](https://thusi-lab.github.io/Awesome-LFMs-Play-Games/?pillar=Model#library) |
+| **Harness** | How does capability become reliable play? | [Reading list](#-harness) · [Interactive collection](https://thusi-lab.github.io/Awesome-LFMs-Play-Games/?pillar=Harness#library) |
+| **Benchmark** | What evidence shows that the player improved? | [Reading list](#-benchmark) · [Interactive collection](https://thusi-lab.github.io/Awesome-LFMs-Play-Games/?pillar=Benchmark#library) |
 
+## Collection at a glance
+
+**210 unique resources · 257 category records · 32 additions since the April 2026 cutoff**
+
+The repository primarily features work from 2025 onward, with selected earlier foundations. A resource may contribute to several pillars. Counts include related surveys and refer to this reading list, not the manuscript bibliography.
+
+**October 21, 2026 update.** New works include Video-Arena, Scaling in Games / GameScaling, SPIKE, Odysseus, Player-1, GameHorizon Suite, GameWAM, Matrix-Game 4.0, OmniGameArena, AgenticSTS, and recent Slay the Spire benchmarks. The [October catalog](data/literature-2026-10.json) records dates and their precision, summaries, primary sources, and release status. [Browse only these additions →](https://thusi-lab.github.io/Awesome-LFMs-Play-Games/?source=update#library)
+
+**Reading the categories.** Dataset includes corpora and explicitly labeled data-scaling studies; Model includes learned policies and world models; Harness includes planning, memory, control, and adaptation around models; Benchmark includes evaluation protocols. The website labels supporting environments separately from player-focused work. Recorded-video understanding and closed-loop gameplay are distinct; Coachable agents is labeled as related non-LFM RL research.
+
+**Dates and availability.** October additions use first arXiv submission dates or identified official release announcements. Baseline entries retain the dates recorded in the existing reading list. October dataset rows inherit the associated paper's date, which may differ from the artifact release. A repository can be a placeholder: Player-1, GameHorizon, and WorldMind/BOSS-140K have pending resources as of the October review. GameScaling links to its official PDF. The catalog records exceptions and exact provenance.
+
+**Navigate:** [Model](#-model) · [Harness](#-harness) · [Dataset](#-dataset) · [Benchmark](#-benchmark) · [Related surveys](#-survey) · [Roadmap](#-challenges--future-directions) · [Repository guide](#repository-guide) · [Citation](#-citation)
 
 ---
 
@@ -337,49 +349,61 @@ This repository covers the evolution from specific and simple environments to co
 ---
 ## 🚀 Challenges & Future Directions
 
-### Five Trade-offs:
+### Five recurring tensions
 
-**① The Data Trilemma:** Scale, fidelity, and diversity — no dataset can win on all three.
+| Tension | What progress should preserve |
+| :--- | :--- |
+| **Scale, fidelity, and diversity** | Useful action supervision across a broader distribution of games. |
+| **Breadth and depth** | Precise, competent play as coverage expands. |
+| **Reasoning and reaction** | Decision quality under the game's real-time budget. |
+| **Model and harness** | Reliable behavior with their respective contributions made explicit. |
+| **Code engines and learned worlds** | Stable rules, persistent state, and trustworthy training feedback. |
 
-**② The Heterogeneity Wall:** Breadth vs. depth — covering 1,000 games doesn't mean mastering any one.
+### A roadmap for players that keep growing
 
-**③ The Latency-Intelligence Dilemma:** Deeper reasoning means slower reaction — long chains can't keep up with real-time combat.
+1. **Master one game.** Compose skills into long-horizon behavior across held-out goals and seeds.
+2. **Transfer within a genre.** Carry skills into related games without per-title retuning.
+3. **Cross game boundaries.** Preserve competence when controls, dynamics, and time scales change.
+4. **Adapt through experience.** Use bounded interaction to improve, while retaining earlier skills. Separate fixed-weight adaptation from continued training.
+5. **Grow with new worlds — prospective.** Expand environments and curricula, validate their rules and rewards, then measure whether their experience improves players in held-out code-engine games.
 
-**④ The Harness Paradox:** Modular pipelines work but are brittle; end-to-end models are clean but can't yet stand on their own.
+These are research targets, not completed capability levels. Evaluate **depth, coverage, and transfer** separately, and report the complete model–harness configuration.
 
-**⑤ The Simulation Gap:** Code engines are stable but rigid; world models are flexible but drift.
+[Explore the visual roadmap →](https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#roadmap)
 
-### Five-Level Roadmap
-**Lv 1 · Single-Game Mastery:** Complete every task in one game, from atomic skills to long-horizon objectives.
+## Repository guide
 
-**Lv 2 · Within-Genre Transfer:** Transfer to similar games in a genre after mastering single game.
+| Path | Purpose |
+| :--- | :--- |
+| [README.md](README.md) | Canonical reading list, organized by contribution. |
+| [data/literature-2026-10.json](data/literature-2026-10.json) | Verified October additions and source/availability notes. |
+| [docs/](docs/) | GitHub Pages source, interactive research map, and transfer illustration. |
+| [docs/data/catalog.json](docs/data/catalog.json) | Complete generated, deduplicated web catalog. |
+| [scripts/build_catalog.py](scripts/build_catalog.py) | Rebuild the web catalog from the reading list and October metadata. |
+| [SITE.md](SITE.md) | Preview, validation, and GitHub Pages maintenance. |
 
-**Lv 3 · Cross-Genre Generalization:** Jump from MOBAs to FPS to strategy games — entirely different mechanics, same agent.
+```sh
+python3 scripts/build_catalog.py
+python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
+```
 
-**Lv 4 · Lifelong Adaptation:** Drop into a game the agent has never seen and let it explore, fail, and learn on its own.
-
-**Lv 5 · The Demiurge:** Beyond playing — the agent creates new game worlds and continually evolves within them.
-
----
+Open <http://127.0.0.1:8765/>. The site is static and requires no package installation or API keys. The transfer lab is a scripted teaching example, not a foundation-model benchmark.
 
 ## 🤝 Contribution
 
-We welcome contributions! Please follow this format to add a paper:
-`[Year/Month] Paper Title *Conference* [[Paper](link)] [[Code](link)]`
-
-1. Fork this repository.
-2. Create a new branch.
-3. Add your paper to the relevant section.
-4. Open a Pull Request.
-
----
+Suggest a [paper or environment](https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games/issues/new?template=paper-suggestion.yml), submit a [correction](https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games/issues/new?template=correction.yml), or open a pull request. Please follow [CONTRIBUTING.md](CONTRIBUTING.md) for scope, source verification, classification, and catalog regeneration.
 
 ## 🔗 Citation
-If you find this repository useful for your research, please cite:
+
+If this survey supports your research, cite the public preprint. [Download BibTeX](docs/data/survey.bib).
+
 ```bibtex
 @article{zhang2026towards,
   title={Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse},
-  author={Zhang, Kuan and Liu, Dongchen and Zhao, Qiyue and Xin, Tianyu and Su, Yue and Wang, Haisheng and Yin, Han and Ma, Hongbo and Li, Peize and Gu, Tianjun and others},
+  author={Zhang, Kuan and Liu, Dongchen and Zhao, Qiyue and Xin, Tianyu and Su, Yue and Wang, Haisheng and Yin, Han and Ma, Hongbo and Li, Peize and Gu, Tianjun and Wu, Xiangnan and Zhang, Xinran and Li, Yongxuan and Chen, Zirong and Li, Yiming},
   journal={arXiv preprint arXiv:2605.09965},
-  year={2026}
+  year={2026},
+  doi={10.48550/arXiv.2605.09965},
+  url={https://arxiv.org/abs/2605.09965}
 }
+```

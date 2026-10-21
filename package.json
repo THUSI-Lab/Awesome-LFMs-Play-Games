@@ -1,0 +1,13 @@
+{
+  "name": "generalist-game-players-survey",
+  "private": true,
+  "type": "module",
+  "description": "A buildless research project page and searchable literature collection.",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "catalog": "python3 scripts/build_catalog.py",
+    "check:catalog": "python3 scripts/build_catalog.py --check",
+    "test": "node --test tests/*.test.mjs",
+    "serve": "python3 -m http.server 8765 --bind 127.0.0.1 --directory docs"
+  }
+}

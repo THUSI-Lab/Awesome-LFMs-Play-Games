@@ -1,0 +1,39 @@
+name: Correct a catalog entry or website issue
+description: Report inaccurate metadata, a broken link, a classification problem, or a website bug.
+title: "[Correction] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Affected entry or page
+      description: Title, catalog ID, README section, or page URL.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of correction
+      multiple: true
+      options:
+        - Title, date, or publication information
+        - Resource link or release status
+        - Classification or scope label
+        - Summary or technical claim
+        - Duplicate or missing record
+        - Website behavior or accessibility
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Current information and proposed correction
+      description: For website issues, include steps to reproduce and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to primary sources for factual corrections. For website issues, include browser and device details.
+    validations:
+      required: true

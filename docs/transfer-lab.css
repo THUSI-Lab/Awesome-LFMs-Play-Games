@@ -1,0 +1,98 @@
+.transfer-lab {
+  --tl-bg: #101e2c;
+  --tl-panel: #172736;
+  --tl-text: #f4f5f1;
+  --tl-muted: #b2c1cb;
+  --tl-orange: #eea363;
+  --tl-cyan: #9bd7d3;
+  padding: clamp(22px, 3.6vw, 46px);
+  overflow: hidden;
+  border: 1px solid #304455;
+  border-radius: 22px;
+  background: var(--tl-bg);
+  color: var(--tl-text);
+  text-align: left;
+  color-scheme: dark;
+}
+.transfer-lab *, .transfer-lab *::before, .transfer-lab *::after { box-sizing: border-box; }
+.transfer-lab .tl-topline { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.transfer-lab .tl-eyebrow, .transfer-lab .tl-small-label { display: block; font-size: 10px; line-height: 1.5; letter-spacing: .12em; font-weight: 650; color: var(--tl-cyan); }
+.transfer-lab .tl-disclaimer { font-size: 11px; line-height: 1.5; color: var(--tl-muted); }
+.transfer-lab .tl-intro h3 { margin: 20px 0 10px; color: var(--tl-text); font-size: clamp(25px, 3vw, 37px); line-height: 1.16; letter-spacing: -.035em; font-weight: 550; }
+.transfer-lab .tl-intro p { max-width: 650px; margin: 0; color: var(--tl-muted); font-size: 14px; line-height: 1.7; }
+.transfer-lab button { font: inherit; cursor: pointer; }
+.transfer-lab button:focus-visible { outline: 3px solid var(--tl-cyan); outline-offset: 4px; }
+.transfer-lab button:disabled { cursor: wait; opacity: .5; }
+.transfer-lab .tl-scenarios { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 28px 0 22px; }
+.transfer-lab .tl-scenarios button { display: flex; align-items: center; gap: 10px; min-height: 50px; padding: 10px 12px; border: 1px solid #334555; border-radius: 8px; background: transparent; color: #c1cdd5; font-size: 12px; font-weight: 500; text-align: left; transition: background .15s, border-color .15s; }
+.transfer-lab .tl-scenarios button span { font-size: 10px; font-variant-numeric: tabular-nums; opacity: .65; }
+.transfer-lab .tl-scenarios button:hover { background: #1d3040; }
+.transfer-lab .tl-scenarios button[aria-pressed="true"] { border-color: var(--tl-orange); background: #eea36312; color: #ffcd9e; }
+.transfer-lab .tl-workspace { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(22px, 4vw, 48px); }
+.transfer-lab .tl-world { align-self: start; }
+.transfer-lab .tl-grid { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; overflow: visible; }
+.transfer-lab .tl-axis { fill: #a2b5c3; font-size: 10px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+.transfer-lab .tl-cell { fill: #192d3e; stroke: #304556; stroke-width: 1; }
+.transfer-lab .tl-wall { fill: #354855; stroke: #415460; }
+.transfer-lab .tl-new-wall { fill: #66523f; stroke: var(--tl-orange); stroke-width: 1.5; }
+.transfer-lab .tl-trail { fill: none; stroke: var(--tl-orange); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; opacity: .5; }
+.transfer-lab .tl-start { fill: #192d3e; stroke: #90a5b3; stroke-width: 1.5; }
+.transfer-lab .tl-start-label { fill: #b8c8d2; font-size: 10px; font-weight: 650; }
+.transfer-lab .tl-goal { fill: var(--tl-cyan); }
+.transfer-lab .tl-goal-label { fill: #102d2d; font-size: 11px; font-weight: 800; }
+.transfer-lab .tl-player-halo { fill: var(--tl-orange); opacity: .18; }
+.transfer-lab .tl-player { fill: var(--tl-orange); stroke: #ffe0c2; stroke-width: 1; }
+.transfer-lab .tl-player-core { fill: #5a351a; }
+.transfer-lab .tl-collision { stroke: #ffa58c; stroke-width: 3; stroke-linecap: round; }
+.transfer-lab .tl-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin: 10px 0 0; font-size: 10px; color: var(--tl-muted); }
+.transfer-lab .tl-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.transfer-lab .tl-legend i { display: inline-block; width: 9px; height: 9px; }
+.transfer-lab .tl-key-player { border-radius: 50%; background: var(--tl-orange); }
+.transfer-lab .tl-key-goal { border-radius: 2px; background: var(--tl-cyan); }
+.transfer-lab .tl-key-wall { border: 1px solid #8295a1; border-radius: 2px; background: #354855; }
+.transfer-lab .tl-key-path { height: 3px !important; background: var(--tl-orange); opacity: .5; }
+.transfer-lab .tl-console { padding-top: 18px; min-width: 0; }
+.transfer-lab .tl-scenario-copy h4 { margin: 7px 0; color: var(--tl-text); font-size: 21px; line-height: 1.3; font-weight: 550; letter-spacing: -.02em; }
+.transfer-lab .tl-scenario-copy p { min-height: 45px; margin: 0 0 20px; font-size: 12px; line-height: 1.75; color: var(--tl-muted); }
+.transfer-lab .tl-control-map { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 11px 0; border-top: 1px solid #304252; border-bottom: 1px solid #304252; }
+.transfer-lab .tl-control-map .tl-small-label { color: #b2c1cb; font-size: 9px; letter-spacing: .08em; }
+.transfer-lab .tl-mapping { display: flex; gap: 13px; }
+.transfer-lab .tl-mapping span { display: flex; align-items: center; gap: 3px; font-size: 13px; }
+.transfer-lab .tl-mapping b { font-size: 11px; font-weight: 500; color: #e2e9ed; }
+.transfer-lab .tl-mapping i { font-style: normal; color: var(--tl-cyan); }
+.transfer-lab .tl-route { margin: 18px 0; }
+.transfer-lab .tl-route .tl-small-label { color: var(--tl-muted); font-size: 9px; }
+.transfer-lab .tl-commands { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+.transfer-lab .tl-command { display: inline-flex; justify-content: center; align-items: center; width: 27px; height: 29px; background: #1b3042; border: 1px solid #3d5262; border-radius: 5px; color: #dce6ed; font-size: 11px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; transition: background .15s; }
+.transfer-lab .tl-command-done { background: #39453f; border-color: #d69b65; color: #ffcf9e; }
+.transfer-lab .tl-command-blocked { background: #543931; border-color: #ffa58c; color: #ffd3c6; }
+.transfer-lab .tl-route-note { margin: 7px 0 0; color: var(--tl-muted); font-size: 10px; line-height: 1.6; }
+.transfer-lab .tl-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.transfer-lab .tl-actions button { min-height: 39px; padding: 9px 12px; border-radius: 7px; border: 1px solid transparent; font-size: 11px; font-weight: 650; line-height: 1.4; }
+.transfer-lab .tl-run { background: var(--tl-orange); color: #291b11; }
+.transfer-lab .tl-replan { border-color: #6faaa7 !important; background: transparent; color: #b9eeea; }
+.transfer-lab .tl-reset { background: transparent; color: #b8c8d2; }
+.transfer-lab .tl-actions button:not(:disabled):hover { filter: brightness(1.1); }
+.transfer-lab .tl-status { min-height: 125px; padding: 14px 16px; margin-top: 18px; background: var(--tl-panel); border: 1px solid #304556; border-radius: 9px; }
+.transfer-lab .tl-status-label { font-size: 9px; letter-spacing: .1em; font-weight: 700; color: var(--tl-cyan); }
+.transfer-lab .tl-status[data-state="blocked"] .tl-status-label, .transfer-lab .tl-status[data-state="missed"] .tl-status-label { color: #ffc18f; }
+.transfer-lab .tl-status-text { color: #dbe5eb; font-size: 12px; line-height: 1.7; margin: 5px 0 0; }
+.transfer-lab .tl-trace { color: #b5c5d0; font-size: 10px; line-height: 1.6; margin: 9px 0 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.transfer-lab .tl-method { margin: 26px 0 0; padding-top: 18px; border-top: 1px solid #304252; color: #afc0cb; font-size: 11px; line-height: 1.7; }
+@media (max-width: 780px) {
+  .transfer-lab .tl-scenarios { grid-template-columns: repeat(2, 1fr); }
+  .transfer-lab .tl-workspace { grid-template-columns: 1fr; gap: 16px; }
+  .transfer-lab .tl-grid { max-width: 380px; }
+  .transfer-lab .tl-console { padding-top: 0; }
+  .transfer-lab .tl-scenario-copy p { min-height: 0; }
+}
+@media (max-width: 420px) {
+  .transfer-lab { padding: 20px 16px; border-radius: 14px; }
+  .transfer-lab .tl-scenarios button { font-size: 11px; padding: 9px; gap: 7px; }
+  .transfer-lab .tl-control-map { align-items: flex-start; flex-direction: column; }
+  .transfer-lab .tl-mapping { gap: 25px; }
+  .transfer-lab .tl-legend { gap: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .transfer-lab *, .transfer-lab *::before, .transfer-lab *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
