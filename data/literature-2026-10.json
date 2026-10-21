@@ -42,6 +42,32 @@
       ]
     },
     {
+      "name": "SpireClimb",
+      "title": "SpireClimb",
+      "date": "2026-10-14",
+      "date_basis": "Official launch-report publication date; no arXiv paper identified",
+      "venue_or_source_type": "Benchmark / research report",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Slay the Spire 1/2, Visual Computer Use, Maximum Difficulty, Fixed Seeds"
+      },
+      "summary": "Evaluates screenshot-based mouse/keyboard agents on both Slay the Spire games at maximum difficulty. Each model plays 60 StS1 and 75 StS2 runs on fixed seeds; the benchmark averages the two game win rates and freezes the StS2 version.",
+      "paper_url": "https://samaritan-research.org/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel",
+      "project_url": "https://samaritan-research.org/benchmarks/spireclimb",
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "Official benchmark methodology and launch report public; no dedicated author-linked code repository or standalone trajectory corpus verified.",
+      "notes": "Uses Inspect ReAct with screenshots, persistent notes across context compaction, and wiki-restricted search. The earlier epoch.ai URL refers to this same benchmark.",
+      "sources": [
+        "https://samaritan-research.org/benchmarks/spireclimb",
+        "https://samaritan-research.org/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel",
+        "https://epoch.ai/benchmarks/spireclimb"
+      ]
+    },
+    {
       "name": "Player-1",
       "title": "Player-1: Learning to Play from Synthetic Experience",
       "date": "2026-10-14",
@@ -67,6 +93,34 @@
         "https://arxiv.org/abs/2610.20584",
         "https://github.com/TencentARC/Player-1",
         "https://player-1-project.github.io/"
+      ]
+    },
+    {
+      "name": "Preference Model Slay the Spire benchmark",
+      "title": "Slay the Spire — A Long-Horizon Reasoning Benchmark",
+      "date": "2026-10-12",
+      "date_basis": "Official research blog displayed date 10.12.26 (October 12, corroborated by October publication search result); no arXiv paper identified",
+      "venue_or_source_type": "Research blog",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Slay the Spire, 11 Models, 5 Scenarios, 1650 Runs, Reasoning Effort",
+        "Harness": "Karotte RL Framework, Headless StS, MCP Tools, Mechanic Lookup, Rollout Logging"
+      },
+      "summary": "Benchmarks 11 models at three reasoning levels on five curated Slay the Spire scenarios, totaling 1,650 main runs. Its headless, text-tool harness adds mechanic lookup and action supervision; a public viewer presents run transcripts and videos.",
+      "paper_url": "https://www.preferencemodel.com/blog/slay-the-spire/",
+      "project_url": "https://ai-plays-slay-the-spire.com/",
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "Official report and transcript/video viewer public. Karotte framework is open source, but no benchmark-specific environment code or bulk trajectory download was verified; do not label the generic framework as the benchmark code.",
+      "notes": "The public viewer is an evaluation artifact; a bulk dataset release was not verified. This study is separate from SpireBench and SpireClimb.",
+      "sources": [
+        "https://www.preferencemodel.com/blog/slay-the-spire/",
+        "https://ai-plays-slay-the-spire.com/",
+        "https://github.com/preferencemodel/karotte"
       ]
     },
     {
@@ -97,6 +151,33 @@
         "https://arxiv.org/abs/2610.14158",
         "https://github.com/THUSI-Lab/VideoArena",
         "https://huggingface.co/datasets/THUSI-Lab/Video-Arena"
+      ]
+    },
+    {
+      "name": "SpireBench",
+      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+      "date": "2026-10-08",
+      "date_basis": "arXiv v1 submission 2026-10-08 18:18:19 UTC",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Complete Slay the Spire, A20, 20 LLMs, Knowledge-Reskin and Memory Ablations",
+        "Harness": "Full-Game Tool Interface, Batched Actions, State Diffs, Cross-Run Memory"
+      },
+      "summary": "Evaluates 20 LLMs on complete Slay the Spire runs at Ascension 20 using ten held-out seeds and human baselines. A full-game tool harness supports action batches and memory studies; consistent renaming of game terms probes prior-knowledge dependence.",
+      "paper_url": "https://arxiv.org/abs/2610.12596",
+      "project_url": null,
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "Paper and detailed harness specification public; no author-linked public code or standalone dataset release verified.",
+      "notes": "Original Slay the Spire (StS1) study by Lowe and Keemink, distinct from the spirebench.com / HermesBridge community project for Slay the Spire 2. No new learned policy or downloadable standalone corpus is claimed.",
+      "sources": [
+        "https://arxiv.org/abs/2610.12596",
+        "https://arxiv.org/html/2610.12596v1"
       ]
     },
     {
@@ -462,6 +543,34 @@
       ]
     },
     {
+      "name": "Coachable agents",
+      "title": "Coachable agents for interactive gameplay",
+      "date": "2026-07-01",
+      "date_basis": "First arXiv submission date; v2 was submitted on 2026-08-10",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "Related Non-LFM RL, Style-Conditioned Policies, Runtime Coaching, HFW / GT7 / Humanoid"
+      },
+      "summary": "Studies reinforcement-learning policies whose behavior can be changed at runtime through structured style controls while retaining a fixed core task. Domain-specific experiments cover Horizon Forbidden West, Gran Turismo 7, and a humanoid control environment.",
+      "paper_url": "https://arxiv.org/abs/2607.00642",
+      "project_url": null,
+      "repository_url": "https://github.com/SonyResearch/coachable_agents",
+      "dataset_urls": [],
+      "release_status": "Humanoid training/evaluation code and an example policy are public. The linked repository does not release the Horizon Forbidden West or Gran Turismo 7 environments and controllers.",
+      "notes": "Included as related non-foundation-model RL research, not an LFM-based generalist agent. Coaching uses structured style parameters rather than natural-language instructions. Style conditioning is part of the learned policy; no separate Dataset, Harness, or Benchmark contribution is claimed.",
+      "sources": [
+        "https://arxiv.org/abs/2607.00642",
+        "https://arxiv.org/html/2607.00642v2",
+        "https://github.com/SonyResearch/coachable_agents"
+      ],
+      "latest_paper_revision": "2026-08-10 (v2)",
+      "repository_link_label": "Code (humanoid)"
+    },
+    {
       "name": "Environment-Grounded APO",
       "title": "Environment-Grounded Automated Prompt Optimization for LLM Game Agents",
       "date": "2026-06-16",
@@ -789,24 +898,59 @@
         "https://www.agentisland.ai/",
         "https://www.agentisland.ai/logs"
       ]
-    }
-  ],
-  "unresolved_names": [
+    },
     {
-      "requested_name": "agentsis",
-      "status": "No matching game-agent primary source verified as of 2026-10-21; exact title or source link needed before inclusion."
+      "name": "Odysseus",
+      "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
+      "date": "2026-05-01",
+      "date_basis": "First arXiv submission date; COLM 2026 acceptance identified in the official training repository",
+      "venue_or_source_type": "COLM 2026",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "VLM Policy, PPO, Turn-Level CNN Critic, 100+ Turns, Mario, Cross-Game Transfer"
+      },
+      "summary": "Trains VLM policies for long-horizon Super Mario Land gameplay using adapted PPO, a lightweight turn-level critic, positive-advantage filtering, and multi-level curriculum sampling. The study evaluates in-game and cross-game generalization while checking retention of general-domain capabilities.",
+      "paper_url": "https://arxiv.org/abs/2605.00347",
+      "project_url": "https://odysseus-project.github.io/",
+      "repository_url": "https://github.com/odysseus-project/odysseus-mario-training",
+      "dataset_urls": [],
+      "release_status": "Official RL training repository, companion evaluation repository, and Odysseus/Odysseus-Zero model checkpoints are public. The training README notes that GPU training and checkpoint export remain unvalidated for this code release.",
+      "notes": "Distinct from the Odyssey company world-model releases and AgentOdyssey. Classified by its learned VLM policy and RL method; the training framework is not a separate deployment-time harness contribution. The released training presets initialize from Qwen3-VL-8B-Instruct; the paper also studies supervised initialization.",
+      "sources": [
+        "https://arxiv.org/abs/2605.00347",
+        "https://arxiv.org/html/2605.00347v1",
+        "https://odysseus-project.github.io/",
+        "https://github.com/odysseus-project/odysseus-mario-training",
+        "https://github.com/odysseus-project/odysseus-mario-evaluation",
+        "https://huggingface.co/collections/Odysseus-Project/odysseus"
+      ],
+      "model_urls": [
+        "https://huggingface.co/collections/Odysseus-Project/odysseus"
+      ]
     }
   ],
   "name_disambiguation": [
     {
-      "requested_name": "odessey",
-      "included_related_works": [
+      "names": [
+        "Odysseus",
         "Odyssey-3",
         "Agora-1 (Odyssey)",
         "Agora-2 (Odyssey)",
         "AgentOdyssey"
       ],
-      "note": "The intended spelling/identity was not confirmed. These are independently verified works; the 2024 Minecraft Odyssey is not counted as a new 2026 release."
+      "note": "Odysseus is the Mario VLM reinforcement-learning paper (arXiv:2605.00347). The Odyssey company releases and AgentOdyssey benchmark are distinct works; the 2024 Minecraft Odyssey is not counted as a new 2026 release."
+    },
+    {
+      "names": [
+        "SpireBench",
+        "SpireClimb",
+        "Preference Model Slay the Spire benchmark",
+        "AgenticSTS"
+      ],
+      "note": "These are separate studies with different games, interfaces, and protocols. The SpireBench paper (arXiv:2610.12596) is also distinct from the independently developed spirebench.com / HermesBridge project."
     }
   ]
 }
