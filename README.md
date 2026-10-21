@@ -4,34 +4,61 @@
   </a>
 </p>
 
-# Towards Generalist Game Players
-### A Survey of Foundation Models in the Game Multiverse
+<h1 align="center">Towards Generalist Game Players</h1>
+<h3 align="center">A Survey of Foundation Models in the Game Multiverse</h3>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2605.09965">📄 Paper</a> &nbsp;·&nbsp;
-  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/">🌐 Project page</a> &nbsp;·&nbsp;
-  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#library">🔎 Search the collection</a> &nbsp;·&nbsp;
-  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#environments">🧭 Explore transfer</a> &nbsp;·&nbsp;
-  <a href="CONTRIBUTING.md">↗ Contribute</a>
+  <strong>Foundation models as players. Game worlds as environments for learning.</strong><br>
+  If this collection helps your research, consider giving it a ⭐ to help others find it.
 </p>
 
 <p align="center">
-  <strong><a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#film">▶ Watch the 90-second film</a></strong><br>
-  Players that learn to act. Worlds that help them grow.<br>
+  <a href="https://arxiv.org/abs/2605.09965"><img src="https://img.shields.io/badge/arXiv-2605.09965-28352F?style=flat-square&amp;labelColor=18201C" alt="Paper: arXiv 2605.09965"></a>
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/"><img src="https://img.shields.io/badge/Project-Page-7C927D?style=flat-square&amp;labelColor=28352F" alt="Project page"></a>
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#library"><img src="https://img.shields.io/badge/Resources-210-BA9447?style=flat-square&amp;labelColor=28352F" alt="210 unique resources"></a>
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/?source=update#library"><img src="https://img.shields.io/badge/October_additions-32-7C927D?style=flat-square&amp;labelColor=28352F" alt="32 October additions"></a>
+</p>
+
+<p align="center">
+  Kuan Zhang<sup>1,*</sup> &nbsp;·&nbsp; Dongchen Liu<sup>1,*</sup> &nbsp;·&nbsp; Qiyue Zhao<sup>1,*</sup> &nbsp;·&nbsp; Tianyu Xin<sup>1,*</sup> &nbsp;·&nbsp; Yue Su<sup>2,*</sup><br>
+  Haisheng Wang<sup>1</sup> &nbsp;·&nbsp; Han Yin<sup>1</sup> &nbsp;·&nbsp; Hongbo Ma<sup>1</sup> &nbsp;·&nbsp; Peize Li<sup>1</sup> &nbsp;·&nbsp; Tianjun Gu<sup>1</sup><br>
+  Xiangnan Wu<sup>3</sup> &nbsp;·&nbsp; Xinran Zhang<sup>1</sup> &nbsp;·&nbsp; Yongxuan Li<sup>1</sup> &nbsp;·&nbsp; Zirong Chen<sup>1</sup> &nbsp;·&nbsp; Yiming Li<sup>1,†</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup> College of AI, Tsinghua University<br>
+  <sup>2</sup> MMLab, The University of Hong Kong<br>
+  <sup>3</sup> University of Chinese Academy of Sciences<br>
+  <sup>*</sup> Equal contribution &nbsp;·&nbsp; <sup>†</sup> Corresponding author
+</p>
+
+<h2 align="center">Watch the 90-second film</h2>
+
+<p align="center">
+  <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#film">
+    <img src="docs/media/poster.png" alt="Watch the 90-second film: Players that learn to act. Worlds that help them grow." width="850">
+  </a><br>
+  <strong><a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#film">▶ Players that learn to act. Worlds that help them grow.</a></strong><br>
   English narration · English and Chinese subtitles
 </p>
 
-**Foundation models as players. Game worlds as environments for learning.**
+## About the survey
 
-How does one player become more capable across a wider range of games? This collection follows the experience it learns from, the capabilities it acquires, the system it acts through, and the evidence used to evaluate its progress.
+How does one player become more capable across a wider range of games? This survey follows the experience it learns from, the capabilities it acquires, the system it acts through, and the evidence used to evaluate its progress. The collection connects these questions through four pillars: **Dataset, Model, Harness, and Benchmark**.
 
-Our focus is **players and the environments that help them grow**: interaction, planning, memory, control, adaptation, and transfer. World models and generated environments are included for their potential to support player training, planning, or evaluation. Their value depends on reliable interaction and measurable player improvement.
+Our focus is **players and the environments that help them grow**: interaction, planning, memory, control, adaptation, and transfer. World models and generated environments enter this picture through their potential to support player training, planning, or evaluation. Their value depends on reliable interaction and measurable player improvement.
 
-The collection accompanies **Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse**. The [public arXiv preprint](https://arxiv.org/abs/2605.09965) retains the title *An Investigation of Foundation Models in the Game Multiverse*.
+The collection accompanies **Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse**. The [public arXiv preprint](https://arxiv.org/abs/2605.09965) retains the title *An Investigation of Foundation Models in the Game Multiverse*. The survey covers research through April 2026; the living collection includes separately documented October additions.
 
-**Kuan Zhang\*, Dongchen Liu\*, Qiyue Zhao\*, Tianyu Xin\*, Yue Su\***, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li†<br>
-Tsinghua University · The University of Hong Kong · University of Chinese Academy of Sciences<br>
-\* Equal contribution · † Corresponding author
+## Four eras of game-playing AI
+
+<p align="center">
+  <a href="docs/assets/four-eras.png">
+    <img src="docs/assets/four-eras.png" alt="Four eras of game-playing intelligence: Symbolic System, Reinforcement Learning, Foundation Model, and prospective Open-Ended Intelligence" width="100%">
+  </a><br>
+  <strong>Symbolic System → Reinforcement Learning → Foundation Model → Open-Ended Intelligence</strong><br>
+  The final stage is prospective: players and environments co-evolve through richer experience, reliable feedback, and independently evaluated progress.
+</p>
 
 ## Choose a research pillar
 

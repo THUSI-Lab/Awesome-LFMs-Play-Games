@@ -39,8 +39,12 @@ a.text-link:hover, .paper-links a:hover { text-decoration: underline; text-under
 .brand { display: flex; align-items: center; gap: 10px; font-size: 15px; letter-spacing: -.025em; }
 .brand b { font-weight: 600; }
 .brand i { display: none; }
+.nav-wrap > .brand { margin-right: auto; }
 #main-nav { display: flex; gap: 29px; align-items: center; font-size: 12px; color: var(--muted); }
 #main-nav a:hover { color: var(--green); }
+.nav-github { display: inline-flex; align-items: center; flex-shrink: 0; gap: 10px; min-height: 52px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); font-size: 13px; font-weight: 600; }
+.nav-github svg { display: block; width: 36px; height: 36px; flex-shrink: 0; }
+.nav-github:hover { color: var(--green); border-color: var(--green); background: var(--surface); }
 .menu-toggle { display: none; background: none; border: 0; font-size: 12px; padding: 8px; }
 /* A full-bleed cover opens the field guide; the reading sections stay on paper. */
 .masthead { position: relative; isolation: isolate; overflow: hidden; padding-top: 30px; background: #10141b; color: #f8f8f3; }
@@ -244,8 +248,10 @@ h2 { font-size: 34px; letter-spacing: -.045em; line-height: 1.16; }
 @media (max-width: 800px) {
   .container, .nav-wrap { width: calc(100% - 40px); }
   .nav-wrap { min-height: 62px; flex-wrap: wrap; gap: 0; }
-  .menu-toggle { display: flex; gap: 15px; align-items: center; }
-  #main-nav { display: none; width: 100%; padding-block: 12px 22px; gap: 22px; flex-wrap: wrap; }
+  .menu-toggle { display: flex; gap: 15px; align-items: center; margin-left: auto; }
+  .nav-github { width: 44px; min-height: 44px; padding: 4px; margin-left: 14px; border: 0; }
+  .nav-github .github-label { display: none; }
+  #main-nav { display: none; order: 1; width: 100%; padding-block: 12px 22px; gap: 22px; flex-wrap: wrap; }
   #main-nav.open { display: flex; }
   .cover-layout { min-height: 690px; padding: 38px 0 260px; }
   .masthead-art { top: auto; height: 440px; object-position: 65% center; }
