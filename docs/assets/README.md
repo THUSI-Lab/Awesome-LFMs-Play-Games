@@ -3,8 +3,11 @@
 - `player-worlds.png`: original conceptual hero artwork generated for this project with the built-in OpenAI image-generation tool. It is not a game screenshot or a model evaluation result.
 - `mark.svg`: original vector player mark implemented in SVG.
 - `repository-banner.svg`: original vector repository cover.
+- `four-eras.png`: the revised survey's original four-era illustration, reproduced from `images/teaser.png` at 4400 × 2161 pixels. It depicts symbolic systems, reinforcement learning, foundation models, and a prospective open-ended-intelligence stage.
 
 The artwork is designed around a player entering different interactive worlds. No artwork, video, logo, or implementation from the reference project was reused.
+
+The website's GitHub navigation icon is GitHub's `mark-github-24` from [Primer Octicons](https://github.com/primer/octicons/blob/main/icons/mark-github-24.svg), rendered inline at 36 pixels. Its [MIT license](octicons-LICENSE.txt) is included here.
 
 ## Project film
 
