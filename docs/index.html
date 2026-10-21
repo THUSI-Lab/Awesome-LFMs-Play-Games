@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261021-cover3">
+  <link rel="stylesheet" href="styles.css?v=20261022-film">
   <link rel="stylesheet" href="transfer-lab.css?v=20261021-cover3">
   <script type="module" src="app.js?v=20261021-cover3"></script>
 </head>
@@ -26,7 +26,7 @@
   <header class="site-header"><div class="nav-wrap">
     <a class="brand" href="#top" aria-label="Generalist Game Players home"><img src="assets/mark.svg" width="28" height="28" alt=""><span>Generalist <b>Players</b></span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span>＋</span></button>
-    <nav id="main-nav" aria-label="Main navigation"><a href="#pillars">Research map</a><a href="#roadmap">Field guide</a><a href="#library">Library</a><a href="https://arxiv.org/abs/2605.09965">Paper ↗</a><a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">GitHub ↗</a></nav>
+    <nav id="main-nav" aria-label="Main navigation"><a href="#film">Film</a><a href="#pillars">Research map</a><a href="#roadmap">Field guide</a><a href="#library">Library</a><a href="https://arxiv.org/abs/2605.09965">Paper ↗</a><a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">GitHub ↗</a></nav>
   </div></header>
   <main id="main">
     <section class="masthead" id="top" aria-labelledby="hero-title">
@@ -38,7 +38,7 @@
         <p class="paper-subtitle">A Survey of Foundation Models in the Game Multiverse</p>
         <p class="cover-intro">How does one player grow across many worlds?</p>
         <p class="cover-description">We trace the experience players learn from, the systems they act through, and the evidence that their abilities carry over. Games provide the challenges and feedback that make this growth possible.</p>
-        <div class="hero-actions"><a class="button primary" href="https://arxiv.org/abs/2605.09965">Read the paper ↗</a><a class="text-link" href="#library">Browse the collection <span>↓</span></a></div>
+        <div class="hero-actions"><a class="button primary" href="https://arxiv.org/abs/2605.09965">Read the paper ↗</a><a class="text-link" href="#film">Watch the film <span aria-hidden="true">▷</span></a><a class="text-link" href="#library">Browse the collection <span>↓</span></a></div>
       </div><div class="cover-caption"><span>ONE PLAYER / MANY WORLDS</span><small>Original concept artwork</small></div></div>
       </div>
     </section>
@@ -46,6 +46,29 @@
       <details class="authors"><summary>By Kuan Zhang, Dongchen Liu, Qiyue Zhao, Tianyu Xin, Yue Su, and collaborators <span>Authors & affiliations ＋</span></summary><div id="author-list"><p>Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li†</p><p>Tsinghua University · The University of Hong Kong · University of Chinese Academy of Sciences</p><small>* Equal contribution · † Corresponding author</small></div></details>
       <div class="edition-note"><span>Survey through April 2026</span><a href="#library" data-update-link><span class="status-dot"></span> October update · 32 new works <span>↗</span></a></div>
     </div>
+
+    <section class="film-section container" id="film" aria-labelledby="film-title">
+      <div class="film-intro"><p class="eyebrow">THE STORY IN 90 SECONDS</p><h2 id="film-title">One player.<br> Many worlds.</h2><p>Follow a player from interaction to adaptation, and into the worlds that test what it has learned.</p><p class="film-language">English narration<br> English + 中文 subtitles</p></div>
+      <div class="film-content">
+        <figure class="film-player">
+          <video id="survey-film" controls playsinline preload="metadata" poster="media/poster.png" width="1920" height="1080" aria-label="Towards Generalist Game Players: a 90-second film" aria-describedby="film-caption">
+            <source src="media/generalist-game-players-v2.mp4" type="video/mp4">
+            Your browser does not support inline video. <a href="media/generalist-game-players-v2.mp4">Download the film</a> or read the transcript below.
+          </video>
+          <figcaption id="film-caption"><span>90 seconds · 1080p · Bilingual captions included</span><a href="media/generalist-game-players-v2.mp4" download>Download MP4 ↓</a><a href="media/subtitles.en-zh.srt" download>Subtitles ↓</a></figcaption>
+        </figure>
+        <details class="film-transcript"><summary>Read the transcript / 阅读双语文字稿 <span aria-hidden="true">＋</span></summary><div id="film-transcript-content"><ol>
+<li><h3>One player. Many worlds.</h3><p lang="en">Imagine one player entering an unfamiliar world. How can foundation models learn from failure, recover, and carry that experience into the next game?</p><p lang="zh-CN">想象一个玩家走进陌生的世界。基础模型如何从失败中学习、恢复，并将这份经验带入下一个游戏？</p></li>
+<li><h3>Experience becomes a learning signal.</h3><p lang="en">It starts by interacting: observing, acting, and discovering what follows. Success and failure can reveal where a strategy works, and what the next attempt should change.</p><p lang="zh-CN">一切始于交互：观察、行动，再去发现结果。成功与失败可以揭示策略何时有效，以及下一次尝试该如何调整。</p></li>
+<li><h3>Worlds that help players grow.</h3><p lang="en">But growth also depends on the worlds we learn from. Stable rules, persistent state, meaningful goals, and reliable feedback give each decision consequences.</p><p lang="zh-CN">但成长也取决于我们从中学习的游戏世界。稳定的规则、连贯的状态、有意义的目标与可靠的反馈，让决策影响局面。</p></li>
+<li><h3>Four pillars. One player.</h3><p lang="en">Our survey connects four pillars around the player: datasets for experience, models for capability, harnesses for interaction, and benchmarks for evidence.</p><p lang="zh-CN">我们的综述以玩家为中心，连接四个支柱：数据集提供经验，模型承载能力，运行框架支持交互，基准测试提供证据。</p></li>
+<li><h3>Two routes to improvement.</h3><p lang="en">Growth can take two paths. Training updates model weights; with weights fixed, feedback can still reshape memory, beliefs, and plans. Each path needs different evidence.</p><p lang="zh-CN">成长可以沿着两条路径展开。训练会更新模型权重；权重固定时，反馈仍能帮助玩家调整记忆、判断与计划。每条路径都需要不同的证据。</p></li>
+<li><h3>Change the world. Test the player.</h3><p lang="en">Now change the layout, controls, or goal. Familiar strategies may break, opening new opportunities to adapt as the challenges expand.</p><p lang="zh-CN">现在，改变地图、操作方式或目标。熟悉的策略可能失效，而不断扩展的挑战，也带来了新的适应机会。</p></li>
+<li><h3>Depth. Coverage. Transfer.</h3><p lang="en">So how do we know the player improved? Measure depth, coverage at a stated skill level, and transfer to unseen games. Verify those gains on fresh, independent episodes.</p><p lang="zh-CN">那么，如何知道玩家真的进步了？衡量能力深度、在既定能力标准下的覆盖范围，以及向未见游戏的迁移。再用全新且独立的游戏回合验证这些进步。</p></li>
+<li><h3>Towards Generalist Game Players</h3><p lang="en">Explore Towards Generalist Game Players and our living research collection. Discover the players that learn to act, and the worlds that help them grow.</p><p lang="zh-CN">阅读《迈向通用游戏玩家》，探索我们持续更新的研究合集。关注学会行动的玩家，以及帮助它们成长的世界。</p></li>
+</ol></div></details>
+      </div>
+    </section>
 
     <section class="research-map container" id="pillars" aria-labelledby="pillars-title">
       <div class="map-intro"><p class="eyebrow">START HERE</p><h2 id="pillars-title">Four ways into<br>the research.</h2><p>A player's development connects all four pillars. Follow the question closest to yours.</p><a class="text-link" href="#roadmap">Read the field guide ↓</a></div>

@@ -15,6 +15,12 @@
   <a href="CONTRIBUTING.md">↗ Contribute</a>
 </p>
 
+<p align="center">
+  <strong><a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#film">▶ Watch the 90-second film</a></strong><br>
+  Players that learn to act. Worlds that help them grow.<br>
+  English narration · English and Chinese subtitles
+</p>
+
 **Foundation models as players. Game worlds as environments for learning.**
 
 How does one player become more capable across a wider range of games? This collection follows the experience it learns from, the capabilities it acquires, the system it acts through, and the evidence used to evaluate its progress.

@@ -84,7 +84,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 60,
+          "line": 66,
           "date": "2026-10",
           "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
           "venue": "arXiv",
@@ -110,7 +110,7 @@
         },
         {
           "section": "Harness",
-          "line": 143,
+          "line": 149,
           "date": "2026-10",
           "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
           "venue": "arXiv",
@@ -179,7 +179,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 238,
+          "line": 244,
           "date": "2026-10",
           "title": "SpireClimb",
           "venue": "Benchmark / research report",
@@ -251,7 +251,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 61,
+          "line": 67,
           "date": "2026-10",
           "title": "Player-1: Learning to Play from Synthetic Experience",
           "venue": "arXiv",
@@ -273,7 +273,7 @@
         },
         {
           "section": "Dataset",
-          "line": 199,
+          "line": 205,
           "date": "2026-10",
           "title": "Player-1: Learning to Play from Synthetic Experience",
           "venue": "arXiv",
@@ -348,7 +348,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 144,
+          "line": 150,
           "date": "2026-10",
           "title": "Slay the Spire — A Long-Horizon Reasoning Benchmark",
           "venue": "Research blog",
@@ -366,7 +366,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 239,
+          "line": 245,
           "date": "2026-10",
           "title": "Slay the Spire — A Long-Horizon Reasoning Benchmark",
           "venue": "Research blog",
@@ -441,7 +441,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 200,
+          "line": 206,
           "date": "2026-10",
           "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
           "venue": "arXiv",
@@ -467,7 +467,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 240,
+          "line": 246,
           "date": "2026-10",
           "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
           "venue": "arXiv",
@@ -536,7 +536,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 145,
+          "line": 151,
           "date": "2026-10",
           "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
           "venue": "arXiv",
@@ -550,7 +550,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 241,
+          "line": 247,
           "date": "2026-10",
           "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
           "venue": "arXiv",
@@ -620,7 +620,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 146,
+          "line": 152,
           "date": "2026-10",
           "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
           "venue": "arXiv",
@@ -642,7 +642,7 @@
         },
         {
           "section": "Dataset",
-          "line": 201,
+          "line": 207,
           "date": "2026-10",
           "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
           "venue": "arXiv",
@@ -664,7 +664,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 242,
+          "line": 248,
           "date": "2026-10",
           "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
           "venue": "arXiv",
@@ -743,7 +743,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 62,
+          "line": 68,
           "date": "2026-10",
           "title": "Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds",
           "venue": "Technical report",
@@ -769,7 +769,7 @@
         },
         {
           "section": "Dataset",
-          "line": 202,
+          "line": 208,
           "date": "2026-10",
           "title": "Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds",
           "venue": "Technical report",
@@ -860,7 +860,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 63,
+          "line": 69,
           "date": "2026-09",
           "title": "GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models",
           "venue": "arXiv",
@@ -886,7 +886,7 @@
         },
         {
           "section": "Harness",
-          "line": 147,
+          "line": 153,
           "date": "2026-09",
           "title": "GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models",
           "venue": "arXiv",
@@ -908,7 +908,7 @@
         },
         {
           "section": "Dataset",
-          "line": 203,
+          "line": 209,
           "date": "2026-09",
           "title": "GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models",
           "venue": "arXiv",
@@ -990,7 +990,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 204,
+          "line": 210,
           "date": "2026-09",
           "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
           "venue": "arXiv",
@@ -1012,7 +1012,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 243,
+          "line": 249,
           "date": "2026-09",
           "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
           "venue": "arXiv",
@@ -1077,7 +1077,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 64,
+          "line": 70,
           "date": "2026-09",
           "title": "Agora-2: An Action-Conditioned World Model for Real-Time Multiplayer Environments",
           "venue": "Technical report",
@@ -1134,7 +1134,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 65,
+          "line": 71,
           "date": "2026-09",
           "title": "Introducing Odyssey-3: A General-Purpose Physical Intelligence",
           "venue": "Research announcement",
@@ -1211,7 +1211,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 66,
+          "line": 72,
           "date": "2026-08",
           "title": "GameWAM: A World Action Model for Video Games",
           "venue": "arXiv",
@@ -1237,7 +1237,7 @@
         },
         {
           "section": "Dataset",
-          "line": 205,
+          "line": 211,
           "date": "2026-08",
           "title": "GameWAM: A World Action Model for Video Games",
           "venue": "arXiv",
@@ -1328,7 +1328,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 67,
+          "line": 73,
           "date": "2026-08",
           "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
           "venue": "arXiv",
@@ -1350,7 +1350,7 @@
         },
         {
           "section": "Harness",
-          "line": 148,
+          "line": 154,
           "date": "2026-08",
           "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
           "venue": "arXiv",
@@ -1372,7 +1372,7 @@
         },
         {
           "section": "Dataset",
-          "line": 206,
+          "line": 212,
           "date": "2026-08",
           "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
           "venue": "arXiv",
@@ -1455,7 +1455,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 68,
+          "line": 74,
           "date": "2026-07",
           "title": "StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation",
           "venue": "arXiv",
@@ -1481,7 +1481,7 @@
         },
         {
           "section": "Dataset",
-          "line": 207,
+          "line": 213,
           "date": "2026-07",
           "title": "StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation",
           "venue": "arXiv",
@@ -1549,7 +1549,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 69,
+          "line": 75,
           "date": "2026-07",
           "title": "ActSWM: Action-Sensitive World Models for Long-Horizon Planning in Open-World Games",
           "venue": "arXiv",
@@ -1608,7 +1608,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 149,
+          "line": 155,
           "date": "2026-07",
           "title": "Compiled Agency: Coding Agents as Game AI Researchers -- from a Roguelike to StarCraft II and Civilization",
           "venue": "arXiv",
@@ -1622,7 +1622,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 244,
+          "line": 250,
           "date": "2026-07",
           "title": "Compiled Agency: Coding Agents as Game AI Researchers -- from a Roguelike to StarCraft II and Civilization",
           "venue": "arXiv",
@@ -1697,7 +1697,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 150,
+          "line": 156,
           "date": "2026-07",
           "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
           "venue": "arXiv",
@@ -1719,7 +1719,7 @@
         },
         {
           "section": "Dataset",
-          "line": 208,
+          "line": 214,
           "date": "2026-07",
           "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
           "venue": "arXiv",
@@ -1745,7 +1745,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 245,
+          "line": 251,
           "date": "2026-07",
           "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
           "venue": "arXiv",
@@ -1812,7 +1812,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 70,
+          "line": 76,
           "date": "2026-07",
           "title": "Coachable agents for interactive gameplay",
           "venue": "arXiv",
@@ -1875,7 +1875,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 151,
+          "line": 157,
           "date": "2026-06",
           "title": "Environment-Grounded Automated Prompt Optimization for LLM Game Agents",
           "venue": "arXiv",
@@ -1946,7 +1946,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 152,
+          "line": 158,
           "date": "2026-06",
           "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
           "venue": "arXiv",
@@ -1968,7 +1968,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 246,
+          "line": 252,
           "date": "2026-06",
           "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
           "venue": "arXiv",
@@ -2039,7 +2039,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 247,
+          "line": 253,
           "date": "2026-05",
           "title": "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents",
           "venue": "NeurIPS 2026",
@@ -2110,7 +2110,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 153,
+          "line": 159,
           "date": "2026-05",
           "title": "PTCG-Bench: Can LLM Agents Master Pokémon Trading Card Game?",
           "venue": "EMNLP 2026 Findings",
@@ -2128,7 +2128,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 248,
+          "line": 254,
           "date": "2026-05",
           "title": "PTCG-Bench: Can LLM Agents Master Pokémon Trading Card Game?",
           "venue": "EMNLP 2026 Findings",
@@ -2200,7 +2200,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 209,
+          "line": 215,
           "date": "2026-05",
           "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs",
           "venue": "arXiv / NeurIPS 2025 competition report",
@@ -2222,7 +2222,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 249,
+          "line": 255,
           "date": "2026-05",
           "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs",
           "venue": "arXiv / NeurIPS 2025 competition report",
@@ -2298,7 +2298,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 71,
+          "line": 77,
           "date": "2026-05",
           "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models",
           "venue": "arXiv",
@@ -2320,7 +2320,7 @@
         },
         {
           "section": "Dataset",
-          "line": 210,
+          "line": 216,
           "date": "2026-05",
           "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models",
           "venue": "arXiv",
@@ -2392,7 +2392,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 154,
+          "line": 160,
           "date": "2026-05",
           "title": "APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents",
           "venue": "arXiv",
@@ -2459,7 +2459,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 155,
+          "line": 161,
           "date": "2026-05",
           "title": "SPIKE: An Adaptive Dual Controller Framework for Cost-Efficient Long-Horizon Game Agents",
           "venue": "arXiv",
@@ -2522,7 +2522,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 72,
+          "line": 78,
           "date": "2026-05",
           "title": "Agora-1: The Multi-Agent World Model",
           "venue": "Research announcement",
@@ -2586,7 +2586,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 73,
+          "line": 79,
           "date": "2026-05",
           "title": "ReactiveGWM: Flexible Control and NPC Reactivity in Game World Models",
           "venue": "arXiv",
@@ -2662,7 +2662,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 156,
+          "line": 162,
           "date": "2026-05",
           "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
           "venue": "arXiv",
@@ -2738,7 +2738,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 211,
+          "line": 217,
           "date": "2026-05",
           "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
           "venue": "arXiv",
@@ -2760,7 +2760,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 250,
+          "line": 256,
           "date": "2026-05",
           "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
           "venue": "arXiv",
@@ -2833,7 +2833,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 74,
+          "line": 80,
           "date": "2026-05",
           "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
           "venue": "COLM 2026",
@@ -2903,7 +2903,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 252,
+          "line": 258,
           "date": "2026-04",
           "title": "PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models",
           "venue": "arXiv",
@@ -2959,7 +2959,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 75,
+          "line": 81,
           "date": "2026-04",
           "title": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory",
           "venue": "arXiv",
@@ -3021,7 +3021,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 251,
+          "line": 257,
           "date": "2026-04",
           "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
           "venue": "arXiv",
@@ -3082,7 +3082,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 76,
+          "line": 82,
           "date": "2026-03",
           "title": "WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation",
           "venue": "arXiv",
@@ -3150,7 +3150,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 158,
+          "line": 164,
           "date": "2026-03",
           "title": "The PokeAgent Challenge: Competitive and Long-Context Learning at Scale",
           "venue": "NeurIPS 2025 Competition Track",
@@ -3168,7 +3168,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 254,
+          "line": 260,
           "date": "2026-03",
           "title": "The PokeAgent Challenge: Competitive and Long-Context Learning at Scale",
           "venue": "NeurIPS 2025 competition",
@@ -3228,7 +3228,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 160,
+          "line": 166,
           "date": "2026-03",
           "title": "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation",
           "venue": "arXiv",
@@ -3284,7 +3284,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 159,
+          "line": 165,
           "date": "2026-03",
           "title": "Resource-constrained Amazons chess decision framework integrating large language models and graph attention",
           "venue": "arXiv",
@@ -3344,7 +3344,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 77,
+          "line": 83,
           "date": "2026-03",
           "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
           "venue": "arXiv",
@@ -3362,7 +3362,7 @@
         },
         {
           "section": "Dataset",
-          "line": 212,
+          "line": 218,
           "date": "2026-03",
           "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
           "venue": "arXiv",
@@ -3420,7 +3420,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 255,
+          "line": 261,
           "date": "2026-03",
           "title": "GTO Wizard Benchmark",
           "venue": "arXiv",
@@ -3478,7 +3478,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 157,
+          "line": 163,
           "date": "2026-03",
           "title": "GameVerse: Can Vision-Language Models Learn from Video-based Reflection?",
           "venue": "arXiv",
@@ -3496,7 +3496,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 258,
+          "line": 264,
           "date": "2026-03",
           "title": "GameVerse: Can Vision-Language Models Learn from Video-based Reflection?",
           "venue": "arXiv",
@@ -3559,7 +3559,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 253,
+          "line": 259,
           "date": "2026-03",
           "title": "GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents",
           "venue": "ACL 2026",
@@ -3621,7 +3621,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 257,
+          "line": 263,
           "date": "2026-03",
           "title": "Beyond Scaling: Assessing Strategic Reasoning and Rapid Decision-Making Capability of LLMs in Zero-sum Environments",
           "venue": "arXiv",
@@ -3679,7 +3679,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 256,
+          "line": 262,
           "date": "2026-03",
           "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
           "venue": "arXiv",
@@ -3731,7 +3731,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 80,
+          "line": 86,
           "date": "2026-02",
           "title": "VAM: Verbalized Action Masking for Controllable Exploration in RL Post-Training -- A Chess Case Study",
           "venue": "arXiv",
@@ -3787,7 +3787,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 78,
+          "line": 84,
           "date": "2026-02",
           "title": "Solaris: Building a Multiplayer Video World Model in Minecraft",
           "venue": "arXiv",
@@ -3846,7 +3846,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 161,
+          "line": 167,
           "date": "2026-02",
           "title": "ProxyWar: Dynamic Assessment of LLM Code Generation in Game Arenas",
           "venue": "ICSE 2026",
@@ -3903,7 +3903,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 82,
+          "line": 88,
           "date": "2026-02",
           "title": "Mixture of Masters: Sparse Chess Language Models with Player Routing",
           "venue": "arXiv",
@@ -3955,7 +3955,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 79,
+          "line": 85,
           "date": "2026-02",
           "title": "MAIN-VLA: Modeling Abstraction of Intention and eNvironment for Vision-Language-Action Models",
           "venue": "arXiv",
@@ -4012,7 +4012,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 260,
+          "line": 266,
           "date": "2026-02",
           "title": "Is Your LLM Really Mastering the Concept? A Multi-Agent Benchmark",
           "venue": "arXiv",
@@ -4069,7 +4069,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 81,
+          "line": 87,
           "date": "2026-02",
           "title": "Implicit Strategic Optimization: Rethinking Long-Horizon Decision-Making in Adversarial Poker Environments",
           "venue": "arXiv",
@@ -4121,7 +4121,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 259,
+          "line": 265,
           "date": "2026-02",
           "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
           "venue": "arXiv",
@@ -4179,7 +4179,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 266,
+          "line": 272,
           "date": "2026-01",
           "title": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents",
           "venue": "AAAI 2026",
@@ -4237,7 +4237,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 262,
+          "line": 268,
           "date": "2026-01",
           "title": "Sparks of Cooperative Reasoning: LLMs as Strategic Hanabi Agents",
           "venue": "arXiv",
@@ -4298,7 +4298,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 84,
+          "line": 90,
           "date": "2026-01",
           "title": "Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing",
           "venue": "arXiv",
@@ -4316,7 +4316,7 @@
         },
         {
           "section": "Dataset",
-          "line": 214,
+          "line": 220,
           "date": "2026-01",
           "title": "Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing",
           "venue": "arXiv",
@@ -4379,7 +4379,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 261,
+          "line": 267,
           "date": "2026-01",
           "title": "OpenGuanDan: A Large-Scale Imperfect Information Game Benchmark",
           "venue": "arXiv",
@@ -4445,7 +4445,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 83,
+          "line": 89,
           "date": "2026-01",
           "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
           "venue": "arXiv",
@@ -4463,7 +4463,7 @@
         },
         {
           "section": "Dataset",
-          "line": 213,
+          "line": 219,
           "date": "2026-01",
           "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
           "venue": "arXiv",
@@ -4521,7 +4521,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 265,
+          "line": 271,
           "date": "2026-01",
           "title": "Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game",
           "venue": "arXiv",
@@ -4574,7 +4574,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 267,
+          "line": 273,
           "date": "2026-01",
           "title": "MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents",
           "venue": "arXiv",
@@ -4631,7 +4631,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 264,
+          "line": 270,
           "date": "2026-01",
           "title": "LLMs as Rules Oracles: Exploring Real-World Multimodal Reasoning in Tabletop Strategy Game Environments",
           "venue": "ICLR 2026",
@@ -4687,7 +4687,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 85,
+          "line": 91,
           "date": "2026-01",
           "title": "GameTalk: Training LLMs for Strategic Conversation",
           "venue": "arXiv",
@@ -4735,7 +4735,7 @@
       "source_rows": [
         {
           "section": "Survey",
-          "line": 341,
+          "line": 347,
           "date": "2026-01",
           "title": "Game-Theoretic Lens on LLM-based Multi-Agent Systems",
           "venue": "arXiv",
@@ -4792,7 +4792,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 263,
+          "line": 269,
           "date": "2026-01",
           "title": "EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents",
           "venue": "arXiv",
@@ -4858,7 +4858,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 162,
+          "line": 168,
           "date": "2026-01",
           "title": "BotzoneBench: Scalable LLM Evaluation via Graded AI Anchors",
           "venue": "arXiv",
@@ -4876,7 +4876,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 268,
+          "line": 274,
           "date": "2026-01",
           "title": "BotzoneBench: Scalable LLM Evaluation via Graded AI Anchors",
           "venue": "arXiv",
@@ -4935,7 +4935,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 270,
+          "line": 276,
           "date": "2025-12",
           "title": "WOLF: Werewolf-based Observations for LLM Deception and Falsehoods",
           "venue": "arXiv",
@@ -4995,7 +4995,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 86,
+          "line": 92,
           "date": "2025-12",
           "title": "Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning",
           "venue": "arXiv",
@@ -5055,7 +5055,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 87,
+          "line": 93,
           "date": "2025-12",
           "title": "SIMA 2: A Generalist Embodied Agent for Virtual Worlds",
           "venue": "arXiv",
@@ -5117,7 +5117,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 269,
+          "line": 275,
           "date": "2025-12",
           "title": "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess",
           "venue": "arXiv",
@@ -5172,7 +5172,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 163,
+          "line": 169,
           "date": "2025-12",
           "title": "Do Persona-Infused LLMs Affect Performance in a Strategic Reasoning Game?",
           "venue": "IJCNLP-AACL 2025",
@@ -5228,7 +5228,7 @@
       "source_rows": [
         {
           "section": "Survey",
-          "line": 342,
+          "line": 348,
           "date": "2025-12",
           "title": "An Anatomy of Vision-Language-Action Models: From Modules to Milestones and Challenges",
           "venue": "arXiv",
@@ -5294,7 +5294,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 271,
+          "line": 277,
           "date": "2025-11",
           "title": "Reasoning via Video: The First Evaluation of Video Models' Reasoning Abilities through Maze-Solving Tasks",
           "venue": "arXiv",
@@ -5354,7 +5354,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 164,
+          "line": 170,
           "date": "2025-11",
           "title": "Real-Time Reasoning Agents in Evolving Environments",
           "venue": "arXiv",
@@ -5411,7 +5411,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 89,
+          "line": 95,
           "date": "2025-11",
           "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
           "venue": "arXiv",
@@ -5463,7 +5463,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 90,
+          "line": 96,
           "date": "2025-11",
           "title": "Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds",
           "venue": "arXiv",
@@ -5519,7 +5519,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 88,
+          "line": 94,
           "date": "2025-11",
           "title": "IPR-1: Interactive Physical Reasoner",
           "venue": "arXiv",
@@ -5579,7 +5579,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 93,
+          "line": 99,
           "date": "2025-10",
           "title": "Stronger-MAS: Multi-Agent Reinforcement Learning for Collaborative LLMs",
           "venue": "arXiv",
@@ -5637,7 +5637,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 272,
+          "line": 278,
           "date": "2025-10",
           "title": "StarBench: A Turn-Based RPG Benchmark for Agentic Multimodal Decision-Making and Information Seeking",
           "venue": "arXiv",
@@ -5690,7 +5690,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 276,
+          "line": 282,
           "date": "2025-10",
           "title": "PuzzlePlex: Benchmarking Foundation Models on Reasoning and Planning with Puzzles",
           "venue": "arXiv",
@@ -5748,7 +5748,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 277,
+          "line": 283,
           "date": "2025-10",
           "title": "Mixing Expert Knowledge: Bring Human Thoughts Back To the Game of Go",
           "venue": "NeurIPS 2025",
@@ -5808,7 +5808,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 94,
+          "line": 100,
           "date": "2025-10",
           "title": "MARSHAL: Incentivizing Multi-Agent Reasoning via Self-Play with Strategic LLMs",
           "venue": "arXiv",
@@ -5871,7 +5871,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 273,
+          "line": 279,
           "date": "2025-10",
           "title": "LLM-Hanabi: Evaluating Multi-Agent Gameplays with Theory-of-Mind and Rationale Inference in Imperfect Information Collaboration Game",
           "venue": "EMNLP 2025 workshop",
@@ -5928,7 +5928,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 92,
+          "line": 98,
           "date": "2025-10",
           "title": "Learning to Play: A Multimodal Agent for 3D Game-Play",
           "venue": "arXiv",
@@ -5983,7 +5983,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 91,
+          "line": 97,
           "date": "2025-10",
           "title": "Game-TARS: Pretrained Foundation Models for Scalable Generalist Multimodal Game Agents",
           "venue": "arXiv",
@@ -6038,7 +6038,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 165,
+          "line": 171,
           "date": "2025-10",
           "title": "Code World Models for General Game Playing",
           "venue": "ICLR 2016",
@@ -6095,7 +6095,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 275,
+          "line": 281,
           "date": "2025-10",
           "title": "CATArena: Evaluation of LLM Agents through Iterative Tournament Competitions",
           "venue": "arXiv",
@@ -6153,7 +6153,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 274,
+          "line": 280,
           "date": "2025-10",
           "title": "Beyond Survival: Evaluating LLMs in Social Deduction Games with Human-Aligned Strategies",
           "venue": "arXiv",
@@ -6208,7 +6208,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 97,
+          "line": 103,
           "date": "2025-09",
           "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
           "venue": "arXiv",
@@ -6264,7 +6264,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 96,
+          "line": 102,
           "date": "2025-09",
           "title": "SpinGPT: A Large-Language-Model Approach to Playing Poker Correctly",
           "venue": "ACG 2025",
@@ -6320,7 +6320,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 278,
+          "line": 284,
           "date": "2025-09",
           "title": "PillagerBench: Benchmarking LLM-Based Agents in Competitive Minecraft Team Environments",
           "venue": "CoG 2025",
@@ -6386,7 +6386,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 95,
+          "line": 101,
           "date": "2025-09",
           "title": "OpenHA: A Series of Open-Source Hierarchical Agentic Models in Minecraft",
           "venue": "arXiv",
@@ -6404,7 +6404,7 @@
         },
         {
           "section": "Dataset",
-          "line": 215,
+          "line": 221,
           "date": "2025-09",
           "title": "OpenHA: A Series of Open-Source Hierarchical Agentic Models in Minecraft",
           "venue": "arXiv",
@@ -6459,7 +6459,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 166,
+          "line": 172,
           "date": "2025-09",
           "title": "Leveraging LLM Agents for Automated Video Game Testing",
           "venue": "arXiv",
@@ -6520,7 +6520,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 167,
+          "line": 173,
           "date": "2025-09",
           "title": "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games",
           "venue": "EMNLP 2025",
@@ -6538,7 +6538,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 280,
+          "line": 286,
           "date": "2025-09",
           "title": "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games",
           "venue": "EMNLP 2025",
@@ -6595,7 +6595,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 281,
+          "line": 287,
           "date": "2025-09",
           "title": "EvoEmpirBench: Dynamic Spatial Reasoning with Agent-ExpVer",
           "venue": "AAAI 2026",
@@ -6652,7 +6652,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 279,
+          "line": 285,
           "date": "2025-09",
           "title": "Can Large Language Models Master Complex Card Games?",
           "venue": "NeurIPS 2025",
@@ -6709,7 +6709,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 285,
+          "line": 291,
           "date": "2025-08",
           "title": "Who is a Better Player: LLM against LLM",
           "venue": "arXiv",
@@ -6761,7 +6761,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 169,
+          "line": 175,
           "date": "2025-08",
           "title": "VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft",
           "venue": "EMNLP 2025",
@@ -6812,7 +6812,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 99,
+          "line": 105,
           "date": "2025-08",
           "title": "Think in Games: Learning to Reason in Games via Reinforcement Learning with Large Language Models",
           "venue": "arXiv",
@@ -6863,7 +6863,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 100,
+          "line": 106,
           "date": "2025-08",
           "title": "Reinforced Language Models for Sequential Decision Making",
           "venue": "arXiv",
@@ -6917,7 +6917,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 286,
+          "line": 292,
           "date": "2025-08",
           "title": "PuzzleJAX: A Benchmark for Reasoning and Learning",
           "venue": "arXiv",
@@ -6973,7 +6973,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 98,
+          "line": 104,
           "date": "2025-08",
           "title": "Matrix-game 2.0: An open-source real-time and streaming interactive world model",
           "venue": "arXiv",
@@ -7035,7 +7035,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 282,
+          "line": 288,
           "date": "2025-08",
           "title": "GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games",
           "venue": "arXiv",
@@ -7097,7 +7097,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 283,
+          "line": 289,
           "date": "2025-08",
           "title": "Game Reasoning Arena: A Framework and Benchmark for Assessing Reasoning Capabilities of Large Language Models via Game Play",
           "venue": "arXiv",
@@ -7153,7 +7153,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 101,
+          "line": 107,
           "date": "2025-08",
           "title": "Enhancing Vision-Language Model Training with Reinforcement Learning in Synthetic Worlds for Real-World Success",
           "venue": "arXiv",
@@ -7213,7 +7213,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 168,
+          "line": 174,
           "date": "2025-08",
           "title": "DeepPHY: Benchmarking Agentic VLMs on Physical Reasoning",
           "venue": "arXiv",
@@ -7231,7 +7231,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 284,
+          "line": 290,
           "date": "2025-08",
           "title": "DeepPHY: Benchmarking Agentic VLMs on Physical Reasoning",
           "venue": "arXiv",
@@ -7292,7 +7292,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 287,
+          "line": 293,
           "date": "2025-07",
           "title": "TextQuests: How Good are LLMs at Text-Based Video Games?",
           "venue": "arXiv",
@@ -7354,7 +7354,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 290,
+          "line": 296,
           "date": "2025-07",
           "title": "StarDojo: Benchmarking Open-Ended Behaviors of Agentic Multimodal LLMs in Production-Living Simulations with Stardew Valley",
           "venue": "arXiv",
@@ -7411,7 +7411,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 288,
+          "line": 294,
           "date": "2025-07",
           "title": "MazeEval: A Benchmark for Testing Sequential Decision-Making in Language Models",
           "venue": "arXiv",
@@ -7463,7 +7463,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 170,
+          "line": 176,
           "date": "2025-07",
           "title": "General Modular Harness for LLM Agents in Multi-Turn Gaming Environments",
           "venue": "ICML MAS workshop",
@@ -7519,7 +7519,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 289,
+          "line": 295,
           "date": "2025-07",
           "title": "A Third Paradigm for LLM Evaluation: Dialogue Game-Based Evaluation using clembench",
           "venue": "arXiv",
@@ -7578,7 +7578,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 172,
+          "line": 178,
           "date": "2025-06",
           "title": "VS-Bench: Evaluating VLMs for Strategic Abilities in Multi-Agent Environments",
           "venue": "arXiv",
@@ -7640,7 +7640,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 291,
+          "line": 297,
           "date": "2025-06",
           "title": "TextAtari: 100K Frames Game Playing with Language Agents",
           "venue": "arXiv",
@@ -7700,7 +7700,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 102,
+          "line": 108,
           "date": "2025-06",
           "title": "Play to Generalize: Learning to Reason Through Game Play",
           "venue": "arXiv",
@@ -7772,7 +7772,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 171,
+          "line": 177,
           "date": "2025-06",
           "title": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games",
           "venue": "ICLR 2026",
@@ -7790,7 +7790,7 @@
         },
         {
           "section": "Dataset",
-          "line": 216,
+          "line": 222,
           "date": "2025-06",
           "title": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games",
           "venue": "ICLR 2026",
@@ -7808,7 +7808,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 292,
+          "line": 298,
           "date": "2025-06",
           "title": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games",
           "venue": "ICLR 2026",
@@ -7870,7 +7870,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 103,
+          "line": 109,
           "date": "2025-06",
           "title": "Matrix-Game: Interactive World Foundation Model",
           "venue": "arXiv",
@@ -7937,7 +7937,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 175,
+          "line": 181,
           "date": "2025-05",
           "title": "VideoGameBench: Can Vision-Language Models complete popular video games?",
           "venue": "arXiv",
@@ -7955,7 +7955,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 295,
+          "line": 301,
           "date": "2025-05",
           "title": "VideoGameBench: Can Vision-Language Models complete popular video games?",
           "venue": "arXiv",
@@ -8015,7 +8015,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 105,
+          "line": 111,
           "date": "2025-05",
           "title": "Towards Efficient Online Tuning of VLM Agents via Counterfactual Soft Reinforcement Learning",
           "venue": "ICML 2025",
@@ -8077,7 +8077,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 296,
+          "line": 302,
           "date": "2025-05",
           "title": "Sudoku-Bench: Evaluating creative reasoning with Sudoku variants",
           "venue": "arXiv",
@@ -8138,7 +8138,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 217,
+          "line": 223,
           "date": "2025-05",
           "title": "PLAICraft: Large-Scale Time-Aligned Vision-Speech-Action Dataset for Embodied AI",
           "venue": "arXiv",
@@ -8202,7 +8202,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 293,
+          "line": 299,
           "date": "2025-05",
           "title": "MCU: An Evaluation Framework for Open-Ended Game Agents",
           "venue": "ICML 2025",
@@ -8270,7 +8270,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 173,
+          "line": 179,
           "date": "2025-05",
           "title": "lmgame-Bench: How Good are LLMs at Playing Games?",
           "venue": "ICLR 2026",
@@ -8288,7 +8288,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 294,
+          "line": 300,
           "date": "2025-05",
           "title": "lmgame-Bench: How Good are LLMs at Playing Games?",
           "venue": "ICLR 2026",
@@ -8345,7 +8345,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 174,
+          "line": 180,
           "date": "2025-05",
           "title": "Learning to Play Like Humans: A Framework for LLM Adaptation in Interactive Fiction Games",
           "venue": "ACL Findings 2025",
@@ -8403,7 +8403,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 297,
+          "line": 303,
           "date": "2025-05",
           "title": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
           "venue": "NeurIPS 2025",
@@ -8473,7 +8473,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 104,
+          "line": 110,
           "date": "2025-05",
           "title": "Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning",
           "venue": "arXiv",
@@ -8487,7 +8487,7 @@
         },
         {
           "section": "Dataset",
-          "line": 218,
+          "line": 224,
           "date": "2025-05",
           "title": "Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning",
           "venue": "ICLR 2026",
@@ -8548,7 +8548,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 106,
+          "line": 112,
           "date": "2025-05",
           "title": "G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning",
           "venue": "arXiv",
@@ -8605,7 +8605,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 109,
+          "line": 115,
           "date": "2025-04",
           "title": "WHAMM! Real-time world modelling of interactive environments.",
           "venue": "Research blog",
@@ -8662,7 +8662,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 299,
+          "line": 305,
           "date": "2025-04",
           "title": "V-MAGE: A Game Evaluation Framework for Assessing Vision-Centric Capabilities in Multimodal Large Language Models",
           "venue": "ACL 2026",
@@ -8723,7 +8723,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 108,
+          "line": 114,
           "date": "2025-04",
           "title": "UI-TARS-1.5",
           "venue": "Research blog",
@@ -8785,7 +8785,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 298,
+          "line": 304,
           "date": "2025-04",
           "title": "TextArena",
           "venue": "arXiv",
@@ -8846,7 +8846,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 107,
+          "line": 113,
           "date": "2025-04",
           "title": "MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft",
           "venue": "arXiv",
@@ -8906,7 +8906,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 219,
+          "line": 225,
           "date": "2025-04",
           "title": "Human-Level Competitive Pokémon via Scalable Offline Reinforcement Learning with Transformers",
           "venue": "RL Conf. 2025",
@@ -8969,7 +8969,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 300,
+          "line": 306,
           "date": "2025-03",
           "title": "VGRP-Bench: Visual Grid Reasoning Puzzle Benchmark for Large Vision-Language Models",
           "venue": "arXiv",
@@ -9038,7 +9038,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 220,
+          "line": 226,
           "date": "2025-03",
           "title": "PokéChamp: an Expert-level Minimax Language Agent",
           "venue": "ICML 2025",
@@ -9056,7 +9056,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 302,
+          "line": 308,
           "date": "2025-03",
           "title": "PokéChamp: an Expert-level Minimax Language Agent",
           "venue": "ICML 2025",
@@ -9114,7 +9114,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 112,
+          "line": 118,
           "date": "2025-03",
           "title": "Model as a Game: On Numerical and Spatial Consistency for Generative Games",
           "venue": "ICCV Workshop 2025",
@@ -9172,7 +9172,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 110,
+          "line": 116,
           "date": "2025-03",
           "title": "JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse",
           "venue": "ACL Findings 2025",
@@ -9190,7 +9190,7 @@
         },
         {
           "section": "Dataset",
-          "line": 221,
+          "line": 227,
           "date": "2025-03",
           "title": "JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse",
           "venue": "ACL 2025",
@@ -9250,7 +9250,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 222,
+          "line": 228,
           "date": "2025-03",
           "title": "Empowering LLMs in Decision Games through Algorithmic Data Synthesis",
           "venue": "ICLR 2025 Workshop",
@@ -9315,7 +9315,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 177,
+          "line": 183,
           "date": "2025-03",
           "title": "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-based Agents in Complex Decision-Making Environments",
           "venue": "arXiv",
@@ -9333,7 +9333,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 303,
+          "line": 309,
           "date": "2025-03",
           "title": "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-based Agents in Complex Decision-Making Environments",
           "venue": "arXiv",
@@ -9392,7 +9392,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 176,
+          "line": 182,
           "date": "2025-03",
           "title": "Cultivating Gaming Sense for Yourself: Making VLMs Gaming Experts",
           "venue": "ACL 2025",
@@ -9454,7 +9454,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 301,
+          "line": 307,
           "date": "2025-03",
           "title": "CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation",
           "venue": "COLM 2025",
@@ -9515,7 +9515,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 111,
+          "line": 117,
           "date": "2025-03",
           "title": "CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games",
           "venue": "ICCV 2025",
@@ -9577,7 +9577,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 304,
+          "line": 310,
           "date": "2025-03",
           "title": "AVA: Attentive VLM Agent for Mastering StarCraft II",
           "venue": "arXiv",
@@ -9638,7 +9638,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 305,
+          "line": 311,
           "date": "2025-03",
           "title": "Are Large Vision Language Models Good Game Players?",
           "venue": "ICLR 2025",
@@ -9699,7 +9699,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 113,
+          "line": 119,
           "date": "2025-02",
           "title": "World and Human Action Models towards gameplay ideation",
           "venue": "Nature",
@@ -9756,7 +9756,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 178,
+          "line": 184,
           "date": "2025-02",
           "title": "Reflection of Episodes: Learning to Play Game from Expert and Self Experiences",
           "venue": "arXiv",
@@ -9810,7 +9810,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 114,
+          "line": 120,
           "date": "2025-02",
           "title": "Learning Strategic Language Agents in the Werewolf Game with Iterative Latent Space Policy Optimization",
           "venue": "ICML 2025",
@@ -9858,7 +9858,7 @@
       "source_rows": [
         {
           "section": "Survey",
-          "line": 343,
+          "line": 349,
           "date": "2025-02",
           "title": "Game Theory Meets Large Language Models: A Systematic Survey",
           "venue": "IJCAI 2025",
@@ -9915,7 +9915,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 306,
+          "line": 312,
           "date": "2025-02",
           "title": "Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents",
           "venue": "EMNLP 2025",
@@ -9976,7 +9976,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 116,
+          "line": 122,
           "date": "2025-01",
           "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
           "venue": "arXiv",
@@ -10038,7 +10038,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 308,
+          "line": 314,
           "date": "2025-01",
           "title": "PokerBench: Training Large Language Models to Become Professional Poker Players",
           "venue": "AAAI 2025",
@@ -10099,7 +10099,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 115,
+          "line": 121,
           "date": "2025-01",
           "title": "GameFactory: Creating New Games with Generative Interactive Videos",
           "venue": "ICCV 2025",
@@ -10157,7 +10157,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 307,
+          "line": 313,
           "date": "2025-01",
           "title": "Complete Chess Games Enable LLM Become A Chess Master",
           "venue": "NAACL 2025",
@@ -10216,7 +10216,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 310,
+          "line": 316,
           "date": "2024-12",
           "title": "TeamCraft: A Benchmark for Multi-Modal Multi-Agent Systems in Minecraft",
           "venue": "arXiv",
@@ -10277,7 +10277,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 117,
+          "line": 123,
           "date": "2024-12",
           "title": "Playable Game Generation",
           "venue": "arXiv",
@@ -10342,7 +10342,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 179,
+          "line": 185,
           "date": "2024-12",
           "title": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games",
           "venue": "ACL 2025",
@@ -10360,7 +10360,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 309,
+          "line": 315,
           "date": "2024-12",
           "title": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games",
           "venue": "ACL 2025",
@@ -10421,7 +10421,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 311,
+          "line": 317,
           "date": "2024-12",
           "title": "GameArena: Evaluating LLM Reasoning through Live Computer Games",
           "venue": "ICLR 2025",
@@ -10474,7 +10474,7 @@
       "source_rows": [
         {
           "section": "Survey",
-          "line": 344,
+          "line": 350,
           "date": "2024-12",
           "title": "A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios",
           "venue": "TMLR 2025",
@@ -10530,7 +10530,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 118,
+          "line": 124,
           "date": "2024-11",
           "title": "GameGen-X: Interactive Open-world Game Video Generation",
           "venue": "ICLR 2025",
@@ -10595,7 +10595,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 312,
+          "line": 318,
           "date": "2024-11",
           "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
           "venue": "ICLR 2025",
@@ -10661,7 +10661,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 315,
+          "line": 321,
           "date": "2024-10",
           "title": "TMGBench: A Systematic Game Benchmark for Evaluating Strategic Reasoning Abilities of LLMs",
           "venue": "arXiv",
@@ -10722,7 +10722,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 119,
+          "line": 125,
           "date": "2024-10",
           "title": "Scaling Offline Model-Based RL via Jointly-Optimized World-Action Model Pretraining",
           "venue": "ICLR 2025",
@@ -10782,7 +10782,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 120,
+          "line": 126,
           "date": "2024-10",
           "title": "ROCKET-1: Mastering Open-World Interaction with Visual-Temporal Context Prompting",
           "venue": "CVPR 2025",
@@ -10835,7 +10835,7 @@
       "source_rows": [
         {
           "section": "Survey",
-          "line": 345,
+          "line": 351,
           "date": "2024-10",
           "title": "Procedural Content Generation in Games: A Survey with Insights on Emerging LLM Integration",
           "venue": "AIIDE 2024",
@@ -10892,7 +10892,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 313,
+          "line": 319,
           "date": "2024-10",
           "title": "ING-VP: MLLMs cannot Play Easy Vision-based Games Yet",
           "venue": "arXiv",
@@ -10954,7 +10954,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 314,
+          "line": 320,
           "date": "2024-10",
           "title": "GameTraversalBenchmark: Evaluating Planning Abilities Of Large Language Models Through Traversing 2D Game Maps",
           "venue": "NeurIPS 2024",
@@ -11012,7 +11012,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 317,
+          "line": 323,
           "date": "2024-09",
           "title": "StarCraft II Arena: Evaluating LLMs in Strategic Planning, Real-Time Decision Making, and Adaptability",
           "venue": "arXiv",
@@ -11068,7 +11068,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 318,
+          "line": 324,
           "date": "2024-09",
           "title": "Mars: Situated Inductive Reasoning in an Open-World Environment",
           "venue": "NeurIPS 2024 (D&B)",
@@ -11136,7 +11136,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 180,
+          "line": 186,
           "date": "2024-09",
           "title": "Can VLMs Play Action Role-Playing Games? Take Black Myth Wukong as a Study Case",
           "venue": "arXiv",
@@ -11154,7 +11154,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 316,
+          "line": 322,
           "date": "2024-09",
           "title": "Can VLMs Play Action Role-Playing Games? Take Black Myth Wukong as a Study Case",
           "venue": "NeurIPS 2024 Workshop",
@@ -11215,7 +11215,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 121,
+          "line": 127,
           "date": "2024-08",
           "title": "Diffusion Models Are Real-Time Game Engines",
           "venue": "ICLR 2025",
@@ -11276,7 +11276,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 319,
+          "line": 325,
           "date": "2024-08",
           "title": "Atari-GPT: Benchmarking Multimodal Large Language Models as Low-Level Policies in Atari Games",
           "venue": "arXiv",
@@ -11339,7 +11339,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 320,
+          "line": 326,
           "date": "2024-07",
           "title": "Werewolf Arena: A Case Study in LLM Evaluation via Social Deduction",
           "venue": "arXiv",
@@ -11399,7 +11399,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 122,
+          "line": 128,
           "date": "2024-07",
           "title": "OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instruction Following Agents",
           "venue": "NeurIPS 2024",
@@ -11462,7 +11462,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 321,
+          "line": 327,
           "date": "2024-07",
           "title": "Evaluating Large Language Models with Grid-Based Game Competitions: An Extensible LLM Benchmark and Leaderboard",
           "venue": "Journal of Cognitive Systems 2025",
@@ -11524,7 +11524,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 322,
+          "line": 328,
           "date": "2024-06",
           "title": "GameBench: Evaluating Strategic Reasoning Abilities of LLM Agents",
           "venue": "arXiv",
@@ -11588,7 +11588,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 123,
+          "line": 129,
           "date": "2024-06",
           "title": "DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning",
           "venue": "NeurIPS 2024",
@@ -11653,7 +11653,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 124,
+          "line": 130,
           "date": "2024-06",
           "title": "Aligning Agents like Large Language Models",
           "venue": "arXiv",
@@ -11712,7 +11712,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 181,
+          "line": 187,
           "date": "2024-05",
           "title": "Self-Reflection in Large Language Model Agents: Effects on Problem-Solving Performance",
           "venue": "FLLM 2024",
@@ -11774,7 +11774,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 324,
+          "line": 330,
           "date": "2024-05",
           "title": "How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments",
           "venue": "ICLR 2025",
@@ -11836,7 +11836,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 323,
+          "line": 329,
           "date": "2024-05",
           "title": "clembench-2024: A Challenging, Dynamic, Complementary, Multilingual Benchmark and Underlying Flexible Framework for LLMs as Multi-Action Agents",
           "venue": "arXiv",
@@ -11893,7 +11893,7 @@
       "source_rows": [
         {
           "section": "Survey",
-          "line": 346,
+          "line": 352,
           "date": "2024-04",
           "title": "A Survey on Large Language Model-Based Game Agents",
           "venue": "arXiv",
@@ -11950,7 +11950,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 125,
+          "line": 131,
           "date": "2024-03",
           "title": "Scaling Instructable Agents Across Many Simulated Worlds",
           "venue": "arXiv",
@@ -12006,7 +12006,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 182,
+          "line": 188,
           "date": "2024-03",
           "title": "Cradle: Empowering Foundation Agents towards General Computer Control",
           "venue": "ICML 2025",
@@ -12059,7 +12059,7 @@
       "source_rows": [
         {
           "section": "Survey",
-          "line": 347,
+          "line": 353,
           "date": "2024-02",
           "title": "Large Language Models and Games: A Survey and Roadmap",
           "venue": "IEEE Trans. Games",
@@ -12115,7 +12115,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 325,
+          "line": 331,
           "date": "2024-02",
           "title": "GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations",
           "venue": "NeurIPS 2024",
@@ -12176,7 +12176,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 126,
+          "line": 132,
           "date": "2024-02",
           "title": "Genie: Generative Interactive Environments",
           "venue": "ICML 2024",
@@ -12232,7 +12232,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 223,
+          "line": 229,
           "date": "2024-02",
           "title": "Enhance Reasoning for Large Language Models in the Game Werewolf",
           "venue": "arXiv",
@@ -12288,7 +12288,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 224,
+          "line": 230,
           "date": "2024-01",
           "title": "StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments",
           "venue": "CVPR 2023",
@@ -12351,7 +12351,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 326,
+          "line": 332,
           "date": "2024-01",
           "title": "CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents",
           "venue": "ICLR 2024",
@@ -12421,7 +12421,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 183,
+          "line": 189,
           "date": "2023-12",
           "title": "Large Language Models Play StarCraft II: Benchmarks and A Chain of Summarization Approach",
           "venue": "NeurIPS 2024",
@@ -12439,7 +12439,7 @@
         },
         {
           "section": "Benchmark",
-          "line": 327,
+          "line": 333,
           "date": "2023-12",
           "title": "Large Language Models Play StarCraft II: Benchmarks and A Chain of Summarization Approach",
           "venue": "NeurIPS 2024",
@@ -12497,7 +12497,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 127,
+          "line": 133,
           "date": "2023-12",
           "title": "Creative Agents: Empowering Agents with Imagination for Creative Tasks",
           "venue": "arXiv",
@@ -12553,7 +12553,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 184,
+          "line": 190,
           "date": "2023-11",
           "title": "JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models",
           "venue": "arXiv",
@@ -12615,7 +12615,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 330,
+          "line": 336,
           "date": "2023-10",
           "title": "SmartPlay : A Benchmark for LLMs as Intelligent Agents",
           "venue": "ICLR 2024",
@@ -12677,7 +12677,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 329,
+          "line": 335,
           "date": "2023-10",
           "title": "LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models",
           "venue": "Findings of NAACL 2025",
@@ -12738,7 +12738,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 129,
+          "line": 135,
           "date": "2023-10",
           "title": "LLaMA-Rider: Spurring Large Language Models to Explore the Open World",
           "venue": "NAACL Findings 2024",
@@ -12797,7 +12797,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 128,
+          "line": 134,
           "date": "2023-10",
           "title": "Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game",
           "venue": "ICML 2024",
@@ -12857,7 +12857,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 130,
+          "line": 136,
           "date": "2023-10",
           "title": "GROOT: Learning to Follow Instructions by Watching Gameplay Videos",
           "venue": "ICLR 2024",
@@ -12875,7 +12875,7 @@
         },
         {
           "section": "Dataset",
-          "line": 225,
+          "line": 231,
           "date": "2023-10",
           "title": "GROOT: Learning to Follow Instructions by Watching Gameplay Videos",
           "venue": "ICLR 2024",
@@ -12938,7 +12938,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 328,
+          "line": 334,
           "date": "2023-10",
           "title": "AvalonBench: Evaluating LLMs Playing the Game of Avalon",
           "venue": "arXiv",
@@ -12997,7 +12997,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 185,
+          "line": 191,
           "date": "2023-08",
           "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
           "venue": "ICLR 2024",
@@ -13057,7 +13057,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 131,
+          "line": 137,
           "date": "2023-06",
           "title": "STEVE-1: A Generative Model for Text-to-Behavior in Minecraft",
           "venue": "NeurIPS 2023",
@@ -13119,7 +13119,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 186,
+          "line": 192,
           "date": "2023-05",
           "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
           "venue": "NeurIPS 2023 Workshop IMOL",
@@ -13180,7 +13180,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 331,
+          "line": 337,
           "date": "2023-05",
           "title": "clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents",
           "venue": "EMNLP 2023",
@@ -13241,7 +13241,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 187,
+          "line": 193,
           "date": "2023-02",
           "title": "Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents",
           "venue": "NeurIPS 2023",
@@ -13303,7 +13303,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 332,
+          "line": 338,
           "date": "2022-11",
           "title": "Human-level play in the game of Diplomacy by combining language models with strategic reasoning",
           "venue": "Science 2022",
@@ -13363,7 +13363,7 @@
       "source_rows": [
         {
           "section": "Harness",
-          "line": 188,
+          "line": 194,
           "date": "2022-10",
           "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
           "venue": "ICLR 2023",
@@ -13427,7 +13427,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 132,
+          "line": 138,
           "date": "2022-06",
           "title": "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos",
           "venue": "NeurIPS 2022",
@@ -13445,7 +13445,7 @@
         },
         {
           "section": "Dataset",
-          "line": 226,
+          "line": 232,
           "date": "2022-06",
           "title": "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos",
           "venue": "NeurIPS 2022",
@@ -13510,7 +13510,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 133,
+          "line": 139,
           "date": "2022-06",
           "title": "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge",
           "venue": "NeurIPS 2022",
@@ -13528,7 +13528,7 @@
         },
         {
           "section": "Dataset",
-          "line": 227,
+          "line": 233,
           "date": "2022-06",
           "title": "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge",
           "venue": "NeurIPS 2022",
@@ -13590,7 +13590,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 333,
+          "line": 339,
           "date": "2021-09",
           "title": "Benchmarking the Spectrum of Agent Capabilities",
           "venue": "ICLR 2022",
@@ -13655,7 +13655,7 @@
       "source_rows": [
         {
           "section": "Model",
-          "line": 134,
+          "line": 140,
           "date": "2021-04",
           "title": "Counter-Strike Deathmatch with Large-Scale Behavioural Cloning",
           "venue": "CoG 2022",
@@ -13673,7 +13673,7 @@
         },
         {
           "section": "Dataset",
-          "line": 228,
+          "line": 234,
           "date": "2021-04",
           "title": "Counter-Strike Deathmatch with Large-Scale Behavioural Cloning",
           "venue": "CoG 2022",
@@ -13735,7 +13735,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 334,
+          "line": 340,
           "date": "2020-06",
           "title": "The NetHack Learning Environment",
           "venue": "NeurIPS 2020",
@@ -13797,7 +13797,7 @@
       "source_rows": [
         {
           "section": "Benchmark",
-          "line": 335,
+          "line": 341,
           "date": "2019-09",
           "title": "Interactive Fiction Games: A Colossal Adventure",
           "venue": "AAAI 2020",
@@ -13857,7 +13857,7 @@
       "source_rows": [
         {
           "section": "Dataset",
-          "line": 229,
+          "line": 235,
           "date": "2019-07",
           "title": "MineRL: A Large-Scale Dataset of Minecraft Demonstrations",
           "venue": "IJCAI 2019",

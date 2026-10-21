@@ -1,0 +1,125 @@
+1
+00:00:00,200 --> 00:00:03,680
+Imagine one player entering
+an unfamiliar world.
+
+2
+00:00:04,120 --> 00:00:07,680
+How can foundation models
+learn from failure, recover,
+
+3
+00:00:08,060 --> 00:00:10,680
+and carry that experience into the next game?
+
+4
+00:00:11,420 --> 00:00:12,880
+It starts by interacting:
+
+5
+00:00:13,220 --> 00:00:16,220
+observing, acting, and
+discovering what follows.
+
+6
+00:00:16,900 --> 00:00:19,630
+Success and failure can
+reveal where a strategy works,
+
+7
+00:00:19,640 --> 00:00:22,380
+and what the next attempt should change.
+
+8
+00:00:22,775 --> 00:00:25,995
+But growth also depends on
+the worlds we learn from.
+
+9
+00:00:26,635 --> 00:00:29,725
+Stable rules, persistent
+state, meaningful goals,
+
+10
+00:00:29,735 --> 00:00:33,595
+and reliable feedback give
+each decision consequences.
+
+11
+00:00:34,515 --> 00:00:37,495
+Our survey connects four
+pillars around the player:
+
+12
+00:00:37,915 --> 00:00:41,195
+datasets for experience,
+models for capability,
+
+13
+00:00:41,535 --> 00:00:44,875
+harnesses for interaction,
+and benchmarks for evidence.
+
+14
+00:00:45,640 --> 00:00:47,060
+Growth can take two paths.
+
+15
+00:00:47,520 --> 00:00:49,240
+Training updates model weights;
+
+16
+00:00:49,520 --> 00:00:54,160
+with weights fixed, feedback can still
+reshape memory, beliefs, and plans.
+
+17
+00:00:54,640 --> 00:00:56,680
+Each path needs different evidence.
+
+18
+00:00:57,280 --> 00:00:59,600
+Now change the layout, controls, or goal.
+
+19
+00:01:00,080 --> 00:01:01,860
+Familiar strategies may break,
+
+20
+00:01:01,900 --> 00:01:05,620
+opening new opportunities to
+adapt as the challenges expand.
+
+21
+00:01:06,360 --> 00:01:08,300
+So how do we know the player improved?
+
+22
+00:01:09,025 --> 00:01:12,185
+Measure depth, coverage
+at a stated skill level,
+
+23
+00:01:12,225 --> 00:01:14,665
+and transfer to unseen games.
+
+24
+00:01:15,065 --> 00:01:18,425
+Verify those gains on
+fresh, independent episodes.
+
+25
+00:01:19,125 --> 00:01:21,335
+Explore Towards Generalist Game Players
+
+26
+00:01:21,345 --> 00:01:23,425
+and our living research collection.
+
+27
+00:01:23,845 --> 00:01:25,755
+Discover the players that learn to act,
+
+28
+00:01:25,765 --> 00:01:28,045
+and the worlds that help them grow.
