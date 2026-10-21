@@ -32,14 +32,13 @@
   <sup>*</sup> Equal contribution &nbsp;·&nbsp; <sup>†</sup> Corresponding author
 </p>
 
-<h2 align="center">Watch the 90-second film</h2>
+<h2 align="center">Video overview</h2>
 
 <p align="center">
   <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#film">
-    <img src="docs/media/poster.png" alt="Watch the 90-second film: Players that learn to act. Worlds that help them grow." width="850">
+    <img src="docs/media/poster.png" alt="Video overview: Players that learn to act. Worlds that help them grow." width="850">
   </a><br>
-  <strong><a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#film">▶ Players that learn to act. Worlds that help them grow.</a></strong><br>
-  English narration · English and Chinese subtitles
+  <strong><a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#film">▶ Watch the overview</a></strong>
 </p>
 
 ## About the survey

@@ -9,17 +9,13 @@ The artwork is designed around a player entering different interactive worlds. N
 
 The website's GitHub navigation icon is GitHub's `mark-github-24` from [Primer Octicons](https://github.com/primer/octicons/blob/main/icons/mark-github-24.svg), rendered inline at 36 pixels. Its [MIT license](octicons-LICENSE.txt) is included here.
 
-## Project film
+## Video overview
 
-The 90-second project film uses the original cover artwork and eight scenes of original Canvas animation to explain player capabilities, learning environments, and evaluation. The visuals are conceptual illustrations, not gameplay recordings or model performance results.
+The overview uses original project artwork, animation, and music, with synthetic narration generated through Runway. It illustrates research concepts rather than recorded gameplay or measured model results.
 
-- [`../media/generalist-game-players-v2.mp4`](../media/generalist-game-players-v2.mp4): final video with English narration and an original synthesized musical score.
-- [`../media/poster.png`](../media/poster.png): poster for the film.
-- [`../media/subtitles.en-zh.srt`](../media/subtitles.en-zh.srt): English and Chinese subtitles aligned to the final narration.
-
-The narration is a continuous synthetic English performance using the **Benjamin** voice, generated through **Runway** with the `eleven_v3` model. The source narration lasts 87.76 seconds; it was not assembled by cutting individual sentences. No real person's voice was cloned for this project. Subtitle timings follow the final spoken performance.
-
-The score is original synthesized music created for this film. The production uses original graphics and the project artwork rather than footage, audio, or code from the reference survey. The film presents research concepts and aspirations; it does not claim that the illustrated players are running foundation models or achieving measured benchmark results.
+- [Video](../media/generalist-game-players-v2.mp4)
+- [Poster](../media/poster.png)
+- [Subtitles](../media/subtitles.en-zh.srt)
 
 ## Hero prompt
 
