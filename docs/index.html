@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10141b">
+  <title>Towards Generalist Game Players · A Survey</title>
+  <meta name="description" content="Foundation models as game players, and game worlds as environments for learning. Explore datasets, models, harnesses, benchmarks, and a living research collection.">
+  <meta property="og:title" content="Towards Generalist Game Players">
+  <meta property="og:description" content="The players that learn to act. The worlds that help them grow.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/">
+  <meta property="og:image" content="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/assets/player-worlds.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/">
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="transfer-lab.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Generalist Game Players home"><img src="assets/mark.svg" width="28" height="28" alt=""><span>Generalist <b>Players</b><i>↗</i></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span>＋</span></button>
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="#overview">Perspective</a><a href="#pillars">Four pillars</a><a href="#environments">Environments</a><a href="#library">Literature</a><a href="https://arxiv.org/abs/2605.09965">Paper ↗</a>
+        <a class="nav-github" href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">GitHub <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero-art" src="assets/player-worlds.png" width="1672" height="941" fetchpriority="high" alt="An AI player follows a path between exploration, platforming, and strategy worlds. Original concept artwork.">
+      <div class="hero-shade"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow light"><span></span> Foundation models as game players</p>
+          <h1 id="hero-title">Towards<br>Generalist<br><em>Game Players.</em></h1>
+          <p class="paper-subtitle">A Survey of Foundation Models<br>in the Game Multiverse</p>
+          <p class="hero-description">The players that learn to act.<br>The worlds that help them grow.</p>
+          <div class="hero-actions"><a class="button primary" href="https://arxiv.org/abs/2605.09965"><span aria-hidden="true">▤</span> Read the paper</a><a class="button ghost" href="#pillars">Explore the survey <span aria-hidden="true">→</span></a></div>
+          <p class="hero-note">Survey through April 2026 · Collection updated October 2026</p>
+        </div>
+        <div class="art-caption"><span class="status-dot"></span> ONE PLAYER. MANY WORLDS.<small>Original concept artwork</small></div>
+      </div>
+      <div class="hero-facts container"><a href="#pillars"><strong>04</strong><span>pillars of a generalist player</span></a><a href="#evidence"><strong>03</strong><span>dimensions of generality</span></a><a href="#library" data-update-link><strong>32</strong><span>new works since the survey cutoff</span></a><a class="scroll-cue" href="#overview">Follow the player <span>↓</span></a></div>
+    </section>
+
+    <section class="section overview container" id="overview" aria-labelledby="overview-title">
+      <div class="section-intro"><p class="eyebrow">01 / THE PLAYER COMES FIRST</p><h2 id="overview-title">Different worlds.<br><em>Growing abilities.</em></h2></div>
+      <div class="overview-copy"><p class="lead">A new game changes the rules. A generalist player must carry useful experience with it.</p><p>From resource management and hidden information to navigation and real-time control, games make intelligence act. We trace how foundation models acquire skills, turn decisions into actions, and adapt when the world changes.</p><p>Our focus is the complete player—and the environments that provide meaningful experience, reliable feedback, and progressively broader challenges.</p><a class="text-link" href="#environments">See what an environment can teach <span>↗</span></a></div>
+      <div class="player-loop" aria-label="The player learning loop: observe, act, get feedback, improve, then evaluate on fresh episodes">
+        <div><span>01</span><h3>Observe</h3><p>Read the state.<br>Understand the goal.</p></div><i aria-hidden="true">→</i><div><span>02</span><h3>Act</h3><p>Plan a move.<br>Commit to an action.</p></div><i aria-hidden="true">→</i><div><span>03</span><h3>Get feedback</h3><p>See consequences.<br>Recover from failure.</p></div><i aria-hidden="true">↗</i><div class="loop-final"><span>04</span><h3>Improve</h3><p>Refine memory or policy.<br>Test on fresh episodes.</p></div>
+      </div>
+      <details class="authors"><summary>By Kuan Zhang, Dongchen Liu, Qiyue Zhao, Tianyu Xin, Yue Su, and collaborators <span>Authors & affiliations ＋</span></summary><div id="author-list"><p>Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li†</p><p>Tsinghua University · The University of Hong Kong · University of Chinese Academy of Sciences</p><small>* Equal contribution · † Corresponding author</small></div></details>
+    </section>
+
+    <section class="section pillars dark-section" id="pillars" aria-labelledby="pillars-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow light">02 / THE RESEARCH MAP</p><h2 id="pillars-title">Four pillars.<br><em>One capable player.</em></h2></div><p>Follow a capability from the experience that teaches it to the evidence that it works. Select a pillar to explore its role.</p></div>
+        <div class="pillar-layout">
+          <div class="pillar-tabs" role="tablist" aria-label="Survey pillars" aria-orientation="vertical">
+            <button id="tab-dataset" role="tab" aria-selected="true" aria-controls="pillar-panel" data-pillar="Dataset"><span>01</span><b>Dataset</b><small>The experience</small><i>↗</i></button>
+            <button id="tab-model" role="tab" aria-selected="false" tabindex="-1" aria-controls="pillar-panel" data-pillar="Model"><span>02</span><b>Model</b><small>The capability</small><i>↗</i></button>
+            <button id="tab-harness" role="tab" aria-selected="false" tabindex="-1" aria-controls="pillar-panel" data-pillar="Harness"><span>03</span><b>Harness</b><small>The interaction</small><i>↗</i></button>
+            <button id="tab-benchmark" role="tab" aria-selected="false" tabindex="-1" aria-controls="pillar-panel" data-pillar="Benchmark"><span>04</span><b>Benchmark</b><small>The evidence</small><i>↗</i></button>
+          </div>
+          <div id="pillar-panel" role="tabpanel" aria-labelledby="tab-dataset" tabindex="0">
+            <div class="pillar-visual" aria-hidden="true"><div class="diagram-topline"><span>PLAYER DEVELOPMENT</span><span id="diagram-mode">EXPERIENCE → CAPABILITY</span></div><div class="orbit-map"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="player-core"><img src="assets/mark.svg" alt=""><b>PLAYER</b><small>observe · reason · act</small></div><span class="orbit-node node-data active" data-node="Dataset">DATASET</span><span class="orbit-node node-model" data-node="Model">MODEL</span><span class="orbit-node node-harness" data-node="Harness">HARNESS</span><span class="orbit-node node-benchmark" data-node="Benchmark">BENCHMARK</span><div class="environment-line">GAME ENVIRONMENT <span>↔</span> FEEDBACK</div></div></div>
+            <div class="pillar-copy"><p class="eyebrow" id="pillar-label">01 / DATASET</p><h3 id="pillar-question">What experience can the player learn from?</h3><p id="pillar-description">Gameplay trajectories connect observations, goals, actions, and outcomes. Their scale, action fidelity, and game diversity determine which behaviors the model has a chance to acquire.</p><div class="tags" id="pillar-tags"><span>Demonstrations</span><span>Action alignment</span><span>Failures & recovery</span></div><div class="pillar-examples"><span>START READING</span><div id="pillar-anchors"><a href="https://arxiv.org/abs/2601.02427">NitroGen ↗</a><a href="https://arxiv.org/abs/2609.25001">GameHorizon Suite ↗</a></div></div><a href="#library" class="text-link" id="pillar-library-link">Explore Dataset works <span>→</span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container environments" id="environments" aria-labelledby="environments-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / WORLDS THAT TEACH</p><h2 id="environments-title">The environment<br><em>sets the lesson.</em></h2></div><p>Useful worlds have stable consequences, meaningful goals, and feedback a player can learn from. Change the setting below to see why repeating a successful action sequence is only a starting point.</p></div>
+      <div id="transfer-lab"><p class="fallback-note">Enable JavaScript to explore the illustrative transfer lab. The lesson: changing a layout, a control mapping, or a goal tests different aspects of a player's capability.</p></div>
+      <div class="environment-principles"><article><span>01 / RELIABLE INTERACTION</span><h3>Actions have consequences.</h3><p>Rules, rewards, and persistent state make experience useful. A player should be able to revisit a world and trust what it learned.</p></article><article><span>02 / EXPANDING CHALLENGE</span><h3>Experience can get richer.</h3><p>New goals, mechanics, opponents, and environments expose gaps in capability and create opportunities to improve.</p></article><article><span>03 / INDEPENDENT EVALUATION</span><h3>Growth needs a fresh test.</h3><p>Measure what carries over to held-out games. For learned worlds, check whether their experience improves players in reliable code-engine environments.</p></article></div>
+    </section>
+
+    <section class="section evidence" id="evidence" aria-labelledby="evidence-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">04 / EVIDENCE OF GENERALITY</p><h2 id="evidence-title">What does<br><em>“better” mean?</em></h2></div><p>Depth, coverage, and transfer capture different kinds of progress. A convincing result makes each claim—and its evaluation conditions—explicit.</p></div>
+      <div class="evidence-grid"><article><div class="measure-visual depth-visual" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span class="eyebrow">01 / DEPTH</span><h3>How well can it play?</h3><p>Assess competence within a game against declared reference players. Include long tasks, recovery, and failure cases.</p><div class="measure-question">Measure <b>Performance within a game</b></div></article><article><div class="measure-visual coverage-visual" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="eyebrow">02 / COVERAGE</span><h3>How broadly can it play well?</h3><p>Report which fraction of a declared game distribution reaches a competence threshold, alongside per-game results.</p><div class="measure-question">Measure <b>Breadth at a stated skill level</b></div></article><article><div class="measure-visual transfer-visual" aria-hidden="true"><span>●</span><i>↗</i><span>◇</span></div><span class="eyebrow">03 / TRANSFER</span><h3>What survives a new world?</h3><p>Hold out games, mechanics, observations, or controls. State what changed and which abilities carried over.</p><div class="measure-question">Measure <b>Competence under a declared shift</b></div></article></div>
+      <div class="protocol-note"><span aria-hidden="true">↳</span><p><strong>The unit of evaluation is the deployed player.</strong> Report observation privileges, action interfaces, memory rules, interaction budgets, and whether the game clock pauses during inference.</p></div>
+      <div class="adaptation-row"><div><p class="eyebrow">TWO ROUTES TO IMPROVEMENT</p><h3>Experience changes<br>how a player behaves.</h3></div><article><span>01</span><h4>Learn in the weights</h4><p>Demonstrations, reinforcement learning, or continued training update model parameters. Track gains, compute, and retention.</p></article><article><span>02</span><h4>Adapt during play</h4><p>With weights fixed, feedback can revise memory, beliefs, and plans. Test the resulting behavior on fresh episodes.</p></article></div>
+    </div></section>
+
+    <section class="section roadmap dark-section" id="roadmap" aria-labelledby="roadmap-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow light">05 / A RESEARCH ROADMAP</p><h2 id="roadmap-title">From a good move<br><em>to a growing player.</em></h2></div><p>Five research targets extend what a player can handle. They describe evidence to work toward; they are not a claim that current agents have completed the journey.</p></div>
+      <div class="roadmap-tabs" role="tablist" aria-label="Roadmap stages">
+        <button role="tab" id="roadmap-tab-0" aria-selected="true" aria-controls="roadmap-panel" data-stage="0"><span>01</span><b>Master<br>one game</b></button>
+        <button role="tab" id="roadmap-tab-1" tabindex="-1" aria-selected="false" aria-controls="roadmap-panel" data-stage="1"><span>02</span><b>Transfer<br>within a genre</b></button>
+        <button role="tab" id="roadmap-tab-2" tabindex="-1" aria-selected="false" aria-controls="roadmap-panel" data-stage="2"><span>03</span><b>Cross<br>game boundaries</b></button>
+        <button role="tab" id="roadmap-tab-3" tabindex="-1" aria-selected="false" aria-controls="roadmap-panel" data-stage="3"><span>04</span><b>Adapt<br>through experience</b></button>
+        <button role="tab" id="roadmap-tab-4" tabindex="-1" aria-selected="false" aria-controls="roadmap-panel" data-stage="4"><span>05</span><b>Grow<br>with new worlds</b></button>
+      </div>
+      <div id="roadmap-panel" role="tabpanel" tabindex="0" aria-labelledby="roadmap-tab-0"><div><span class="eyebrow" id="roadmap-label">STAGE 01</span><h3 id="roadmap-name">Master one game</h3><p id="roadmap-description">Compose atomic skills into reliable long-horizon behavior across held-out goals, task chains, and seeds.</p></div><div class="roadmap-evidence"><span>WHAT WOULD COUNT AS PROGRESS?</span><p id="roadmap-test">Complete long task chains within the time budget and recover from intermediate failures.</p></div></div>
+    </div></section>
+
+    <section class="section container library" id="library" aria-labelledby="library-title">
+      <div class="section-heading"><div><p class="eyebrow">06 / THE LIVING COLLECTION</p><h2 id="library-title">Find your<br><em>next question.</em></h2></div><div><p>Explore work on the player, its experience, and the environments that support its growth. Contributions to multiple pillars are cross-listed.</p><p class="library-meta"><span id="catalog-total">210</span> unique works · 32 additions since the April cutoff</p></div></div>
+      <div class="library-layout"><aside class="library-filters"><p class="eyebrow">RESEARCH PILLAR</p><div class="category-filters" role="group" aria-label="Filter by research pillar"><button class="active" data-category="All" aria-pressed="true">All works <span data-count="All">210</span></button><button data-category="Dataset" aria-pressed="false">Dataset <span data-count="Dataset">31</span></button><button data-category="Model" aria-pressed="false">Model <span data-count="Model">75</span></button><button data-category="Harness" aria-pressed="false">Harness <span data-count="Harness">46</span></button><button data-category="Benchmark" aria-pressed="false">Benchmark <span data-count="Benchmark">98</span></button><button data-category="Survey" aria-pressed="false">Related surveys <span data-count="Survey">7</span></button></div><div class="filter-bottom"><label class="update-checkbox"><input type="checkbox" id="update-only"> <span>October update only<small>32 selected additions</small></span></label><label for="focus-filter">Research focus</label><select id="focus-filter"><option value="all">All contributions</option><option value="player">Players & capabilities</option><option value="supporting environment">Supporting environments</option><option value="survey">Related surveys</option></select></div><a class="repo-note" href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">Prefer a reading list?<br><strong>Browse the repository ↗</strong></a></aside>
+      <div class="library-main"><div class="search-row"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Search literature</span><input id="paper-search" type="search" placeholder="Search a paper, game, method, or capability…" autocomplete="off"></label><label class="year-box"><span class="sr-only">Publication year</span><select id="year-filter"><option value="all">All years</option></select></label></div><div class="results-bar"><p id="result-count" role="status" aria-live="polite">Loading the research collection…</p><button id="clear-filters">Reset filters ↺</button><a href="data/catalog.json" download>Download JSON ↓</a></div><div id="paper-list" aria-label="Matching research works"></div><button id="load-more" class="button more-button" hidden>Show more works ↓</button><noscript><p>JavaScript enables search and filters. <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">Read every entry in the repository</a>, or <a href="data/catalog.json">download the catalog</a>.</p></noscript></div></div>
+      <p class="availability-note">The collection combines the repository reading list with a separately verified October update. Dates and artifact availability follow the cited sources. The catalog is not an exhaustive bibliography of the manuscript.</p>
+    </section>
+
+    <section class="contribute-section"><div class="container contribute-inner"><div><p class="eyebrow">AN OPEN RESEARCH COLLECTION</p><h2>Help the next player<br><em>go further.</em></h2><p>Share a paper, an environment, or a correction that helps us understand how generalist players learn and improve.</p></div><a class="button primary" href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games/issues/new?template=paper-suggestion.yml">Suggest a work <span>↗</span></a></div></section>
+    <section class="citation container" id="citation"><div><p class="eyebrow">CITE THE SURVEY</p><h3>Build on this work.</h3><p>The project follows the revised survey. The public arXiv preprint retains the title <em>An Investigation of Foundation Models in the Game Multiverse.</em></p><a class="text-link" href="data/survey.bib" download>Download BibTeX ↓</a></div><div class="citation-code"><button id="copy-citation" aria-label="Copy BibTeX citation">Copy BibTeX</button><pre><code id="citation-text">@article{zhang2026towards,
+  title={Towards Generalist Game Players:
+    An Investigation of Foundation Models
+    in the Game Multiverse},
+  author={Zhang, Kuan and others},
+  journal={arXiv preprint arXiv:2605.09965},
+  year={2026}
+}</code></pre><span id="copy-status" role="status" aria-live="polite"></span></div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><a class="brand" href="#top"><img src="assets/mark.svg" width="26" height="26" alt="">Generalist <b>Players</b><i>↗</i></a><p>Players at the center. Progress through experience.</p><a href="#top">Back to top ↑</a></div><div class="container footer-bottom"><span>© 2026 · Towards Generalist Game Players</span><span><a href="https://arxiv.org/abs/2605.09965">Paper</a><a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">GitHub</a><a href="credits.html">Credits</a></span></div></footer>
+</body>
+</html>

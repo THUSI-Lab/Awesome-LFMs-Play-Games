@@ -1,0 +1,60 @@
+name: Suggest a paper or resource
+description: Add research on foundation-model players and environments for learning and evaluation.
+title: "[Paper] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the catalog for duplicates. We focus on players and environments that develop or evaluate player capabilities. See [CONTRIBUTING.md](https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games/blob/main/CONTRIBUTING.md) for the scope and classification rules.
+  - type: input
+    id: title
+    attributes:
+      label: Exact title
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Primary source
+      description: Paper, official technical report, or author release announcement.
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: dropdown
+    id: categories
+    attributes:
+      label: Contribution categories
+      multiple: true
+      options:
+        - Dataset
+        - Model
+        - Harness
+        - Benchmark
+        - Survey
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Contribution to players or learning environments
+      description: Explain the contribution to each selected pillar. For generated worlds, describe how a player interacts, learns, plans, or is evaluated in them.
+    validations:
+      required: true
+  - type: input
+    id: release_date
+    attributes:
+      label: Date and its source
+      description: Use only the precision you can verify. Distinguish first paper release, revision, and artifact release.
+      placeholder: YYYY-MM or YYYY-MM-DD; link to submission history or official announcement
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Official resources and availability
+      description: List project, code, model, data, or demo links. Identify placeholders, restricted access, partial releases, and pending releases.
+  - type: textarea
+    id: details
+    attributes:
+      label: Suggested keywords and additional notes
+      description: Include alternate names, game domains, interaction interface, or relationships to existing entries where relevant.
