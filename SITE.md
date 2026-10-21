@@ -27,6 +27,6 @@ Tests require Node.js 22 or later; no package installation is necessary. Check t
 
 ## GitHub Pages
 
-In the repository's **Settings → Pages**, the publishing source is **Deploy from a branch**, branch **main**, folder **/docs**. `.nojekyll` keeps the site static. A change merged into `main` triggers the Pages build. Keep relative asset paths so the project also works below the repository's URL prefix.
+In the repository's **Settings → Pages**, the publishing source is **Deploy from a branch**, branch **main**, folder **/docs**. `.nojekyll` keeps the site static. A change merged into `main` triggers the Pages build. Keep relative asset paths so the project also works below the repository's URL prefix. When changing the page structure, CSS, or entry script, update the asset version query in `index.html` and `credits.html` together so returning browsers do not combine new HTML with cached, incompatible assets.
 
 The manuscript and the living collection have different cutoffs. The site uses the revised survey title; citation metadata follows the publicly available arXiv version. Do not add an acceptance badge until a publication decision is verified.
