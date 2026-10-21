@@ -1,0 +1,956 @@
+{
+  "checked_through": "2026-10-21",
+  "scope": "Selected works beyond the survey April 2026 cutoff; dates follow arXiv v1 submission histories or explicitly identified official release announcements and are not independent proof of first public availability. This is an expert-curated update, not an exhaustive search.",
+  "classification": {
+    "Dataset": "Training corpora, evaluation data, competitive archives, and explicitly labeled data-scaling studies. Announced resources are distinguished from downloadable releases.",
+    "Model": "Learned policies and game world models; simulators and neural renderers are distinguished from policies that select actions.",
+    "Harness": "Deployment-time perception, planning, memory, control, tool use, and adaptation around a model. Model-weight updates are identified separately.",
+    "Benchmark": "Capability targets and declared evaluation protocols. Recorded-video understanding is distinguished from closed-loop gameplay."
+  },
+  "entries": [
+    {
+      "name": "Matrix-Game 4.0",
+      "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+      "date": "2026-10-15",
+      "date_basis": "Official repository release news is October 15; repository news reports technical report October 16; arXiv v1 submitted October 20.",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model",
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Model": "Engine-Grounded WM, Causal Neural Rendering, Real-Time Gameplay",
+        "Harness": "Executable Game Engine, Coding-Agent Orchestration, Neural Renderer"
+      },
+      "summary": "Combines an executable game engine, coding-agent orchestration, and a trained causal video renderer for low-latency playable shooter and driving worlds.",
+      "paper_url": "https://arxiv.org/abs/2610.27999",
+      "project_url": "https://matrix-game-v4-0.github.io/page/",
+      "repository_url": "https://github.com/SkyworkAI/Matrix-Game",
+      "dataset_urls": [],
+      "release_status": "Inference code, browser demo, game source, model weights, and assets for three scenes are available.",
+      "notes": "The engine owns persistent state and game rules; the video model renders low-poly proxies. Related world-generation infrastructure, not an autonomous native-action game-playing policy. A secondary Harness tag reflects the executable engine and coding agent; do not call it a fully learned WAM. Released assets are not a training dataset release.",
+      "sources": [
+        "https://arxiv.org/abs/2610.27999",
+        "https://github.com/SkyworkAI/Matrix-Game",
+        "https://matrix-game-v4-0.github.io/page/",
+        "https://huggingface.co/Skywork/Matrix-Game-4.0"
+      ],
+      "paper_submission_date": "2026-10-20",
+      "model_urls": [
+        "https://huggingface.co/Skywork/Matrix-Game-4.0"
+      ]
+    },
+    {
+      "name": "SpireClimb",
+      "title": "SpireClimb",
+      "date": "2026-10-14",
+      "date_basis": "Official launch-report publication date; no arXiv paper identified",
+      "venue_or_source_type": "Benchmark / research report",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Slay the Spire 1/2, Visual Computer Use, Maximum Difficulty, Fixed Seeds"
+      },
+      "summary": "Evaluates screenshot-based mouse/keyboard agents on both Slay the Spire games at maximum difficulty. Each model plays 60 StS1 and 75 StS2 runs on fixed seeds; the benchmark averages the two game win rates and freezes the StS2 version.",
+      "paper_url": "https://samaritan-research.org/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel",
+      "project_url": "https://samaritan-research.org/benchmarks/spireclimb",
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "Official benchmark methodology and launch report public; no dedicated author-linked code repository or standalone trajectory corpus verified.",
+      "notes": "Uses Inspect ReAct with screenshots, persistent notes across context compaction, and wiki-restricted search. The earlier epoch.ai URL refers to this same benchmark.",
+      "sources": [
+        "https://samaritan-research.org/benchmarks/spireclimb",
+        "https://samaritan-research.org/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel",
+        "https://epoch.ai/benchmarks/spireclimb"
+      ]
+    },
+    {
+      "name": "Player-1",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "date": "2026-10-14",
+      "date_basis": "arXiv v1 and official repository news",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Model": "VLA, Synthetic-Game SFT + PPO, Keyboard/Mouse; Code & Weights Pending",
+        "Dataset": "Player-1-Data, 6,044 Trajectories, 172 Games; Release Pending"
+      },
+      "summary": "Post-trains computer-use models with gameplay demonstrations and PPO in sixteen synthetic games to learn transferable keyboard-and-mouse control.",
+      "paper_url": "https://arxiv.org/abs/2610.20584",
+      "project_url": "https://player-1-project.github.io/",
+      "repository_url": "https://github.com/TencentARC/Player-1",
+      "dataset_urls": [],
+      "release_status": "Paper and project page released; repository currently contains assets/README. Player-1-Data, Player-1-Gym, model checkpoints, and training/evaluation code are listed as planned releases.",
+      "notes": "Correct paper title omits the search-result paraphrase 'An Agent That'. Player-1-Data contains 6,044 trajectories from 172 games. Player-1-Gym is a synthetic RL training suite, not a new held-out benchmark. Native controls include relative mouse movement, sustained inputs, and composite actions.",
+      "sources": [
+        "https://arxiv.org/abs/2610.20584",
+        "https://github.com/TencentARC/Player-1",
+        "https://player-1-project.github.io/"
+      ]
+    },
+    {
+      "name": "Preference Model Slay the Spire benchmark",
+      "title": "Slay the Spire — A Long-Horizon Reasoning Benchmark",
+      "date": "2026-10-12",
+      "date_basis": "Official research blog displayed date 10.12.26 (October 12, corroborated by October publication search result); no arXiv paper identified",
+      "venue_or_source_type": "Research blog",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Slay the Spire, 11 Models, 5 Scenarios, 1650 Runs, Reasoning Effort",
+        "Harness": "Karotte RL Framework, Headless StS, MCP Tools, Mechanic Lookup, Rollout Logging"
+      },
+      "summary": "Benchmarks 11 models at three reasoning levels on five curated Slay the Spire scenarios, totaling 1,650 main runs. Its headless, text-tool harness adds mechanic lookup and action supervision; a public viewer presents run transcripts and videos.",
+      "paper_url": "https://www.preferencemodel.com/blog/slay-the-spire/",
+      "project_url": "https://ai-plays-slay-the-spire.com/",
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "Official report and transcript/video viewer public. Karotte framework is open source, but no benchmark-specific environment code or bulk trajectory download was verified; do not label the generic framework as the benchmark code.",
+      "notes": "The public viewer is an evaluation artifact; a bulk dataset release was not verified. This study is separate from SpireBench and SpireClimb.",
+      "sources": [
+        "https://www.preferencemodel.com/blog/slay-the-spire/",
+        "https://ai-plays-slay-the-spire.com/",
+        "https://github.com/preferencemodel/karotte"
+      ]
+    },
+    {
+      "name": "Video-Arena",
+      "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
+      "date": "2026-10-09",
+      "date_basis": "arXiv v1 submission: 2026-10-09 17:27:16 UTC",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Recorded-Game Video Understanding, State Tracking, 9 Games, Deterministic Judges",
+        "Dataset": "Evaluation Videos & Ground Truth, 180 Cases, 9 Games"
+      },
+      "summary": "A game-video benchmark of event perception, state-update interpretation, and hidden-state tracking, with native video and tool-assisted agentic protocols. It provides 180 cases across nine games, deterministic game-specific judges, and released video/ground-truth data.",
+      "paper_url": "https://arxiv.org/abs/2610.14158",
+      "project_url": "https://videoarena-bench.github.io/",
+      "repository_url": "https://github.com/THUSI-Lab/VideoArena",
+      "dataset_urls": [
+        "https://huggingface.co/datasets/THUSI-Lab/Video-Arena"
+      ],
+      "release_status": "Evaluation code, task definitions, judges, videos, and ground truth released; case-building pipelines not released.",
+      "notes": "This is the THUSI-Lab game-video benchmark, not Arena.ai's video-generation arena. The nine games are Go, Chess, Gomoku, Doudizhu, CS2, DOTA 2, StarCraft II, Google Research Football, and Badminton. It evaluates understanding of recorded games rather than closed-loop game playing.",
+      "sources": [
+        "https://arxiv.org/abs/2610.14158",
+        "https://github.com/THUSI-Lab/VideoArena",
+        "https://huggingface.co/datasets/THUSI-Lab/Video-Arena"
+      ]
+    },
+    {
+      "name": "SpireBench",
+      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+      "date": "2026-10-08",
+      "date_basis": "arXiv v1 submission 2026-10-08 18:18:19 UTC",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Complete Slay the Spire, A20, 20 LLMs, Knowledge-Reskin and Memory Ablations",
+        "Harness": "Full-Game Tool Interface, Batched Actions, State Diffs, Cross-Run Memory"
+      },
+      "summary": "Evaluates 20 LLMs on complete Slay the Spire runs at Ascension 20 using ten held-out seeds and human baselines. A full-game tool harness supports action batches and memory studies; consistent renaming of game terms probes prior-knowledge dependence.",
+      "paper_url": "https://arxiv.org/abs/2610.12596",
+      "project_url": null,
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "Paper and detailed harness specification public; no author-linked public code or standalone dataset release verified.",
+      "notes": "Original Slay the Spire (StS1) study by Lowe and Keemink, distinct from the spirebench.com / HermesBridge community project for Slay the Spire 2. No new learned policy or downloadable standalone corpus is claimed.",
+      "sources": [
+        "https://arxiv.org/abs/2610.12596",
+        "https://arxiv.org/html/2610.12596v1"
+      ]
+    },
+    {
+      "name": "AAArena / Adversarial Heuristic Learning",
+      "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+      "date": "2026-10-08",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Harness",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "12 Adversarial Games, Historical Human Opponents, Budgeted Heuristic Learning",
+        "Harness": "Opponent Selection, Replay Analysis, Executable Policy Improvement",
+        "Dataset": "1,920 Archived Human Programs; Public Subset: 909 Packages"
+      },
+      "summary": "Twelve adversarial games and 1,920 archived human programs test coding agents that choose opponents, analyze replays, and improve executable game policies within fixed budgets while keeping model weights frozen.",
+      "paper_url": "https://arxiv.org/abs/2610.12341",
+      "project_url": "https://aaarena.net/",
+      "repository_url": "https://github.com/THU-CST-SAST/AAArena",
+      "dataset_urls": [],
+      "release_status": "Evaluation code and 909 historical human-player packages are public; the complete 1,920-program frozen opponent pool remains on the authenticated evaluation server.",
+      "notes": "The arXiv abstract has an unexpanded configuration-count macro, so do not report a count of evaluated configurations. The 1,920-program archive is not fully downloadable; distinguish it from the 909 public packages.",
+      "sources": [
+        "https://arxiv.org/abs/2610.12341",
+        "https://github.com/THU-CST-SAST/AAArena",
+        "https://aaarena.net/"
+      ]
+    },
+    {
+      "name": "Scaling in Games / GameScaling",
+      "title": "Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds",
+      "date": "2026-10",
+      "date_basis": "First project-page commit 2026-10-09 17:01:38 UTC (Oct 10 Asia/Shanghai); initial code release commit 2026-10-10 16:05:19 UTC. No exact paper-publication day asserted.",
+      "venue_or_source_type": "Technical report",
+      "primary_category": "Model",
+      "categories": [
+        "Model",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Model": "Continued Pre-Training, 120 Configurations, Cross-Game Transfer, 8 Released Policies",
+        "Dataset": "Data-Scaling Study, Volume vs. Game Diversity; Training Corpus Not Released"
+      },
+      "summary": "A controlled study of continued pre-training over 120 configurations varying gameplay volume, game diversity, and model size (0.8B–27B). GameScaling releases eight keyboard-and-mouse policies and evaluates transfer from in-corpus games to related and distant unseen worlds.",
+      "paper_url": "https://gamescaling.github.io/assets/paper.pdf",
+      "project_url": "https://gamescaling.github.io/",
+      "repository_url": "https://github.com/THUSI-Lab/GameScaling",
+      "dataset_urls": [],
+      "release_status": "Official paper PDF, inference client, and eight checkpoints released; training code and training corpus not released; arXiv marked coming soon in current README.",
+      "notes": "Use project/PDF citation, not a fabricated arXiv ID. Latest repository citation (Oct 20) uses journal={URL: https://gamescaling.github.io/}; older web-search cache calls it an arXiv preprint. All released checkpoints use 1,600 hours; the study spans 50–1,600 hours and five mixtures. Data-volume/diversity relevance warrants a secondary Dataset tag but no claim of a public corpus.",
+      "sources": [
+        "https://gamescaling.github.io/assets/paper.pdf",
+        "https://github.com/THUSI-Lab/GameScaling",
+        "https://github.com/gamescaling/gamescaling.github.io/commit/08837b81e6a2dc1f71e898840cbdb52bc31546af",
+        "https://github.com/THUSI-Lab/GameScaling/commit/43794d63fd13dd511d8378261e2418347ee5acc1",
+        "https://github.com/gamescaling/gamescaling.github.io/blob/main/abstract.html"
+      ],
+      "model_urls": [
+        "https://huggingface.co/THUSI-Lab/GameScaling"
+      ]
+    },
+    {
+      "name": "GameDirector",
+      "title": "GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models",
+      "date": "2026-09-22",
+      "date_basis": "arXiv v1",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Harness",
+      "categories": [
+        "Harness",
+        "Model",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Harness": "Explicit State & Rules, NPC Planning, Decoupled Rendering",
+        "Model": "State-Conditioned Game WM, NPC Control, Neural Rendering",
+        "Dataset": "51,758 Clips, 3 Games, Video/Control/NPC/State Alignment"
+      },
+      "summary": "Separates explicit game-state updates, rule enforcement, and NPC planning from video rendering to support configurable and mechanically consistent gameplay.",
+      "paper_url": "https://arxiv.org/abs/2609.25652",
+      "project_url": "https://jimntu.github.io/gamedirector/",
+      "repository_url": "https://github.com/Jimntu/GameDirector_code",
+      "dataset_urls": [
+        "https://huggingface.co/datasets/onepiece1999/GameDirector-Training-Data"
+      ],
+      "release_status": "Code, model and dataset repositories available.",
+      "notes": "Dataset has 51,758 clips across three games and 13 characters, including 300 evaluation clips. Uses a 2B language planner and trained visual components with a Wan2.2-TI2V-5B renderer. Related NPC/world-generation infrastructure, not a cross-game native-action player policy.",
+      "sources": [
+        "https://arxiv.org/abs/2609.25652",
+        "https://jimntu.github.io/gamedirector/",
+        "https://github.com/Jimntu/GameDirector_code",
+        "https://huggingface.co/datasets/onepiece1999/GameDirector-Training-Data"
+      ],
+      "model_urls": [
+        "https://huggingface.co/onepiece1999/GameDirector"
+      ]
+    },
+    {
+      "name": "GameHorizon Suite",
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "date": "2026-09-21",
+      "date_basis": "arXiv v1 submission 2026-09-21 17:59:33 UTC; v2 2026-10-12; project announced Sep 22",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Dataset",
+      "categories": [
+        "Dataset",
+        "Benchmark"
+      ],
+      "keywords_by_category": {
+        "Dataset": "GameHorizon-Data, 5,000 Hours, 21 Games, Multi-Horizon Instructions; Release Pending",
+        "Benchmark": "GameHorizon-Bench, Offline QA + Online Tasks, Multi-Horizon Evaluation; Release Pending"
+      },
+      "summary": "A suite combining an automatic multi-horizon instruction annotator, 5,000 hours of expert gameplay across 21 games, and offline plus stepwise online evaluation. GameHorizon-Bench contains 5,000 offline questions and 20 online tasks with 62 subtasks.",
+      "paper_url": "https://arxiv.org/abs/2609.25001",
+      "project_url": "https://gamehorizon-suite.github.io/",
+      "repository_url": "https://github.com/TencentARC/GameHorizon",
+      "dataset_urls": [],
+      "release_status": "Paper, project page, and leaderboard public. Annotator, benchmark code/environments, and dataset still coming soon as of 2026-10-21; official README says progressive releases start around 2026-10-25.",
+      "notes": "Can use two rows, GameHorizon-Data under Dataset and GameHorizon-Bench under Benchmark, linked to the same paper and named suite. Do not label the placeholder repository as released code or invent a dataset URL. Annotator is data construction tooling, not the survey's deployed-agent Harness.",
+      "sources": [
+        "https://arxiv.org/abs/2609.25001",
+        "https://github.com/TencentARC/GameHorizon/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "Agora-2 (Odyssey)",
+      "title": "Agora-2: An Action-Conditioned World Model for Real-Time Multiplayer Environments",
+      "date": "2026-09-21",
+      "date_basis": "Official research announcement date",
+      "venue_or_source_type": "Technical report",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "Action-Conditioned Multiplayer WM, Shared State, Diablo II"
+      },
+      "summary": "A shared-state multiplayer world model developed with Diablo II captures, separating learned simulation from per-player rendering and supporting four human-controlled entities alongside sixteen autonomous entities.",
+      "paper_url": "https://agora-2.odyssey.systems/agora-2.pdf",
+      "project_url": "https://odyssey.systems/introducing-agora-2",
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "code: No author-linked public code release verified; data: No standalone downloadable dataset release verified in this review; weights: No downloadable model weights verified in this review",
+      "notes": "Date is the official announcement release date; technical report PDF itself has no date on its first page. The report clarifies the advertised 20 humans/agents means four human-controlled plus sixteen autonomous entities in its deployed setup. Learned state predictions coexist with server integration/lifecycle rules; do not describe every gameplay rule as learned.",
+      "sources": [
+        "https://agora-2.odyssey.systems/agora-2.pdf",
+        "https://odyssey.systems/introducing-agora-2"
+      ]
+    },
+    {
+      "name": "Odyssey-3",
+      "title": "Introducing Odyssey-3: A General-Purpose Physical Intelligence",
+      "date": "2026-09-15",
+      "date_basis": "Official research announcement date",
+      "venue_or_source_type": "Research announcement",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "Frozen WM Backbone, Learned Gameplay Action Decoders, GTA V; Research Preview"
+      },
+      "summary": "An autoregressive diffusion world-model backbone used to train gameplay action decoders while keeping the backbone frozen, with GTA V demonstrations and qualitative cross-title movement transfer to RDR2 and Sleeping Dogs.",
+      "paper_url": null,
+      "project_url": "https://odyssey.systems/introducing-odyssey-3",
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "code: No author-linked public code release verified; data: No standalone downloadable dataset release verified in this review; weights: No downloadable model weights verified in this review",
+      "notes": "Official announcement reports qualitative gameplay examples, not a matched benchmark establishing cross-game mastery. No separate Odyssey-3 paper or released gameplay dataset/model weights verified.",
+      "sources": [
+        "https://odyssey.systems/introducing-odyssey-3"
+      ]
+    },
+    {
+      "name": "GameWAM",
+      "title": "GameWAM: A World Action Model for Video Games",
+      "date": "2026-08-25",
+      "date_basis": "arXiv v1; dataset exact initial upload dates not separately established",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Model": "WAM, Joint Video/Action Training, Action-Only Inference",
+        "Dataset": "Minecraft & ViZDoom, Video/Action Trajectories, GUI Tasks"
+      },
+      "summary": "Jointly learns future-video prediction and native keyboard-and-mouse actions, then uses action-only closed-loop inference for gameplay and in-game GUI tasks.",
+      "paper_url": "https://arxiv.org/abs/2608.26200",
+      "project_url": "https://yunncheng.github.io/GameWAM/",
+      "repository_url": "https://github.com/yunncheng/GameWAM",
+      "dataset_urls": [
+        "https://huggingface.co/datasets/Yunncheng/gamewam-minecraft",
+        "https://huggingface.co/datasets/Yunncheng/gamewam-vizdoom"
+      ],
+      "release_status": "Code, model checkpoints, and Minecraft/ViZDoom training datasets available.",
+      "notes": "Project explicitly clarifies that future-video prediction is training supervision and future video is not denoised online. Do not imply online imagined-video planning. Minecraft data includes VPT-derived streams and newly scripted GUI trajectories; it is not all newly collected data. ViZDoom provides four scenarios and one training split.",
+      "sources": [
+        "https://arxiv.org/abs/2608.26200",
+        "https://yunncheng.github.io/GameWAM/",
+        "https://github.com/yunncheng/GameWAM",
+        "https://huggingface.co/datasets/Yunncheng/gamewam-minecraft",
+        "https://huggingface.co/datasets/Yunncheng/gamewam-vizdoom"
+      ],
+      "latest_paper_revision": "2026-09-10",
+      "model_urls": [
+        "https://huggingface.co/Yunncheng/gamewam-models"
+      ]
+    },
+    {
+      "name": "WorldMind",
+      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+      "date": "2026-08-18",
+      "date_basis": "arXiv v1",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Harness",
+      "categories": [
+        "Harness",
+        "Model",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Harness": "State Reconstruction, LLM NPC Planning, Closed-Loop World Simulation; Code Pending",
+        "Model": "Decoupled Game WM, State-Aware NPCs; Weights Pending",
+        "Dataset": "BOSS-140K, 144,631 Clips, 14 Bosses, 3 Games; Release Pending"
+      },
+      "summary": "Connects visual state reconstruction, language-model NPC planning, action conditioning, and video generation in a closed loop for state-aware boss behavior.",
+      "paper_url": "https://arxiv.org/abs/2608.21439",
+      "project_url": "https://teawhite.cn/WorldMind/",
+      "repository_url": "https://github.com/TeaWhiteBro/WorldMind",
+      "dataset_urls": [],
+      "release_status": "Paper and project available; official repository says code and weights are being prepared, and project says data will be released.",
+      "notes": "BOSS-140K is announced, not yet a downloadable released dataset. It contains 144,631 video clips and 279,721 non-death decision rows, spans 14 bosses/3 games, and synchronizes controls, NPC skills, and internal states. One game is anonymized as Game A; do not infer its name. Language-model decision layer is untuned; learned understanding/generation modules are separated by runtime orchestration.",
+      "sources": [
+        "https://arxiv.org/abs/2608.21439",
+        "https://teawhite.cn/WorldMind/",
+        "https://github.com/TeaWhiteBro/WorldMind"
+      ]
+    },
+    {
+      "name": "StatePlay",
+      "title": "StatePlay: State-Aware Game World Models for Mechanics-Consistent Generation",
+      "date": "2026-07-29",
+      "date_basis": "arXiv v1",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Model": "State-Aware WM, Joint Frame/State Prediction, Mechanics Consistency",
+        "Dataset": "Street Fighter, Synchronized Video/Actions/States, NPC Strategies"
+      },
+      "summary": "Jointly predicts game frames and internal states through specialized transformer branches to improve consistency with health, skill, and termination mechanics.",
+      "paper_url": "https://arxiv.org/abs/2607.26754",
+      "project_url": "https://jimntu.github.io/stateplay_page/",
+      "repository_url": "https://github.com/Jimntu/StatePlay",
+      "dataset_urls": [
+        "https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset"
+      ],
+      "release_status": "Code, checkpoints, and dataset available.",
+      "notes": "Action-conditioned game world generation rather than an autonomous action policy. Dataset pairs Street Fighter clips with actions, prompts, strategies, and states; visible dataset viewer reports 10k train rows.",
+      "sources": [
+        "https://arxiv.org/abs/2607.26754",
+        "https://jimntu.github.io/stateplay_page/",
+        "https://github.com/Jimntu/StatePlay",
+        "https://huggingface.co/datasets/onepiece1999/StatePlay-Dataset"
+      ],
+      "model_urls": [
+        "https://huggingface.co/onepiece1999/StatePlay"
+      ]
+    },
+    {
+      "name": "ActSWM",
+      "title": "ActSWM: Action-Sensitive World Models for Long-Horizon Planning in Open-World Games",
+      "date": "2026-07-29",
+      "date_basis": "arXiv v1",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "Latent WM, Action Sensitivity, Long-Horizon Planning, Minecraft"
+      },
+      "summary": "Trains action-sensitive latent dynamics to keep alternative futures distinguishable during long-horizon Minecraft planning and cross-game action recovery.",
+      "paper_url": "https://arxiv.org/abs/2607.26712",
+      "project_url": null,
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "Paper verified; official code attribution not established.",
+      "notes": "A matching public repository at https://github.com/KeithBlackmore/ActSWM- exists but cites Anonymous Authors / 2027 and is not linked from arXiv; omit code link unless authorship is established. Lightweight JEPA-style model, best treated as an adjacent planning/world-model contribution rather than a new LFM policy.",
+      "sources": [
+        "https://arxiv.org/abs/2607.26712",
+        "https://arxiv.org/html/2607.26712v2"
+      ],
+      "latest_paper_revision": "2026-08-15"
+    },
+    {
+      "name": "Compiled Agency / Gauntlet",
+      "title": "Compiled Agency: Coding Agents as Game AI Researchers -- from a Roguelike to StarCraft II and Civilization",
+      "date": "2026-07-17",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Harness",
+        "Benchmark"
+      ],
+      "keywords_by_category": {
+        "Harness": "Coding Agents, Develop–Freeze–Evaluate, Standalone Controllers",
+        "Benchmark": "Gauntlet, Roguelike/StarCraft II/Civilization, Held-Out Evaluation, Zero LLM Calls During Play"
+      },
+      "summary": "A develop-freeze-evaluate protocol in which coding agents use game interaction to build standalone controllers, then evaluate frozen programs on held-out instances with zero model calls during play.",
+      "paper_url": "https://arxiv.org/abs/2609.18996",
+      "project_url": null,
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "code: No author-linked public code release verified; data: No standalone downloadable dataset release verified in this review; weights: No downloadable model weights verified in this review",
+      "notes": "Use the current v2 title above, not the older search-index title 'Frontier General-Purpose Coding Agents Build Winning Game Players from Bare Interaction'. ArXiv header/history explicitly state July 17 despite the 2609 identifier. No author-linked project/code URL was verified.",
+      "sources": [
+        "https://arxiv.org/abs/2609.18996",
+        "https://arxiv.org/html/2609.18996v2"
+      ],
+      "latest_paper_revision": "2026-09-26"
+    },
+    {
+      "name": "AgenticSTS",
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "date": "2026-07-02",
+      "date_basis": "arXiv v1 submission 2026-07-02 14:44:32 UTC",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Harness",
+      "categories": [
+        "Harness",
+        "Benchmark",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Harness": "Bounded Typed Memory, Episodic Retrieval, Strategic Skills, Slay the Spire 2",
+        "Benchmark": "Long-Horizon Memory Ablations, State/Action API, Slay the Spire 2",
+        "Dataset": "298 Completed Games, Condition-Tagged Trajectories, Frozen Memory/Skill Stores"
+      },
+      "summary": "A Slay the Spire 2 agent/testbed that rebuilds bounded decision prompts from typed rules, episodic memories, and triggered strategic skills. It releases condition-tagged trajectories, frozen memory/skill stores, prompt records, and analysis scripts for ablations of long-horizon memory.",
+      "paper_url": "https://arxiv.org/abs/2607.02255",
+      "project_url": "https://alayalab.github.io/AgenticSTS/",
+      "repository_url": "https://github.com/AlayaLab/AgenticSTS",
+      "dataset_urls": [
+        "https://huggingface.co/datasets/AlayaLab/AgenticSTS-trajectories"
+      ],
+      "release_status": "Agent, game-mod interface, analysis scripts, and trajectories public.",
+      "notes": "Paper analyzes 298 completed games; HF has 312 analysis records (298 completed plus 14 capped), and repo history has 385 audit rows. Describe as 298 completed trajectories to avoid count confusion. Interface exposes state/action APIs via game mod, not raw-screen gameplay. Small fixed-A0 sample means avoid unqualified superiority/performance claims.",
+      "sources": [
+        "https://arxiv.org/abs/2607.02255v1",
+        "https://github.com/AlayaLab/AgenticSTS",
+        "https://huggingface.co/datasets/AlayaLab/AgenticSTS-trajectories"
+      ]
+    },
+    {
+      "name": "Coachable agents",
+      "title": "Coachable agents for interactive gameplay",
+      "date": "2026-07-01",
+      "date_basis": "First arXiv submission date; v2 was submitted on 2026-08-10",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "Related Non-LFM RL, Style-Conditioned Policies, Runtime Coaching, HFW / GT7 / Humanoid"
+      },
+      "summary": "Studies reinforcement-learning policies whose behavior can be changed at runtime through structured style controls while retaining a fixed core task. Domain-specific experiments cover Horizon Forbidden West, Gran Turismo 7, and a humanoid control environment.",
+      "paper_url": "https://arxiv.org/abs/2607.00642",
+      "project_url": null,
+      "repository_url": "https://github.com/SonyResearch/coachable_agents",
+      "dataset_urls": [],
+      "release_status": "Humanoid training/evaluation code and an example policy are public. The linked repository does not release the Horizon Forbidden West or Gran Turismo 7 environments and controllers.",
+      "notes": "Included as related non-foundation-model RL research, not an LFM-based generalist agent. Coaching uses structured style parameters rather than natural-language instructions. Style conditioning is part of the learned policy; no separate Dataset, Harness, or Benchmark contribution is claimed.",
+      "sources": [
+        "https://arxiv.org/abs/2607.00642",
+        "https://arxiv.org/html/2607.00642v2",
+        "https://github.com/SonyResearch/coachable_agents"
+      ],
+      "latest_paper_revision": "2026-08-10 (v2)",
+      "repository_link_label": "Code (humanoid)"
+    },
+    {
+      "name": "Environment-Grounded APO",
+      "title": "Environment-Grounded Automated Prompt Optimization for LLM Game Agents",
+      "date": "2026-06-16",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Harness",
+      "categories": [
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Harness": "Prompt Optimization, Perception/Action Decomposition, Evolutionary Search, BabyAI"
+      },
+      "summary": "Decomposes perception and action selection into separate agents, then optimizes their prompts using behavior analysis, evolutionary mutations, and environment returns on BALROG's BabyAI tasks.",
+      "paper_url": "https://arxiv.org/abs/2606.17838",
+      "project_url": null,
+      "repository_url": "https://github.com/ReanFernandes/rapoa",
+      "dataset_urls": [],
+      "release_status": "code: Author-linked public repository verified; data: No standalone downloadable dataset release verified in this review; weights: No downloadable model weights verified in this review",
+      "notes": "Code URL explicitly linked by the paper. All five BabyAI tasks, fixed model weights.",
+      "sources": [
+        "https://arxiv.org/abs/2606.17838",
+        "https://arxiv.org/html/2606.17838v1"
+      ]
+    },
+    {
+      "name": "OmniGameArena / IDC",
+      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+      "date": "2026-06-08",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "12 UE5 Games, Solo/PvP/Coop, Improvement Dynamics, Held-Out Variants",
+        "Harness": "IDC, Repeated-Round Reflection, Skill-Prompt Refinement"
+      },
+      "summary": "Twelve new UE5 games spanning solo, competitive, and cooperative play, with an Improvement Dynamics Curve harness that refines skill prompts over repeated rounds and tests transfer to held-out variants.",
+      "paper_url": "https://arxiv.org/abs/2606.09826",
+      "project_url": "https://mxlin043.github.io/OmniGameArena/",
+      "repository_url": "https://github.com/mxlin043/OmniGameArena",
+      "dataset_urls": [],
+      "release_status": "code: Author-linked public repository verified; data: Official project links UE5 environment downloads on Hugging Face and ModelScope; not a gameplay training dataset; weights: No downloadable model weights verified in this review",
+      "notes": "Seven solo, three PvP, two cooperative games. README distinguishes paused decision-quality and latency-charged tracks. Current project page reports expanded reflection analysis relative to original arXiv abstract; avoid copying inconsistent agent counts.",
+      "sources": [
+        "https://arxiv.org/abs/2606.09826",
+        "https://mxlin043.github.io/OmniGameArena/",
+        "https://github.com/mxlin043/OmniGameArena"
+      ]
+    },
+    {
+      "name": "AgentOdyssey",
+      "title": "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents",
+      "date": "2026-05-29",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "NeurIPS 2026",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Generated Text Worlds, Test-Time Continual Learning, Memory, Long-Horizon Planning"
+      },
+      "summary": "Procedurally generated open-ended text games for test-time continual learning, measuring long-horizon progress, knowledge acquisition, episodic memory, exploration, and cost across multiple agent paradigms.",
+      "paper_url": "https://arxiv.org/abs/2606.24893",
+      "project_url": "https://agentodyssey.github.io/",
+      "repository_url": "https://github.com/agentodyssey/agentodyssey",
+      "dataset_urls": [],
+      "release_status": "code: Author-linked public repository verified; data: Generated game environments and generator included in the official repository; not a gameplay training dataset; weights: No downloadable model weights verified in this review",
+      "notes": "ArXiv header and submission history explicitly state May 29 despite the 2606 identifier; latest abstract evaluates six games and distinguishes SFT catastrophic forgetting from memory gains. Accepted NeurIPS 2026 is stated by the authors in arXiv comments.",
+      "sources": [
+        "https://arxiv.org/abs/2606.24893",
+        "https://agentodyssey.github.io/",
+        "https://github.com/agentodyssey/agentodyssey"
+      ],
+      "latest_paper_revision": "2026-10-16"
+    },
+    {
+      "name": "PTCG-Bench",
+      "title": "PTCG-Bench: Can LLM Agents Master Pokémon Trading Card Game?",
+      "date": "2026-05-28",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "EMNLP 2026 Findings",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Pokémon TCG, Strategic Reasoning, Self-Evolution, Harness Ablations",
+        "Harness": "Modular Agent Harness, Experience Accumulation, Self-Evolution"
+      },
+      "summary": "Pokémon Trading Card Game evaluation separates single-environment decision making from improvement across play and examines sensitivity to modular harness design.",
+      "paper_url": "https://arxiv.org/abs/2605.29653",
+      "project_url": null,
+      "repository_url": "https://github.com/zjunet/PTCG-Bench",
+      "dataset_urls": [],
+      "release_status": "Code available; September 19 revision adds explicit harness-aware framing.",
+      "notes": "",
+      "sources": [
+        "https://arxiv.org/abs/2605.29653",
+        "https://github.com/zjunet/PTCG-Bench"
+      ]
+    },
+    {
+      "name": "MINDGAMES",
+      "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs",
+      "date": "2026-05-28",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv / NeurIPS 2025 competition report",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "4 Social/Strategic Games, TrueSkill, MG-Ref, Error Attribution",
+        "Dataset": "MGC2025, 29,571 Games, Turn-Level Multiagent Trajectories"
+      },
+      "summary": "Four-game social and strategic evaluation with a fixed reference-agent protocol and 29,571 multi-agent games containing turn-level observations, actions and rewards.",
+      "paper_url": "https://arxiv.org/abs/2605.29512",
+      "project_url": null,
+      "repository_url": "https://github.com/mind-games-challenge/mindgames-starter-kit",
+      "dataset_urls": [
+        "https://huggingface.co/datasets/mindgameschallenge/MGC2025"
+      ],
+      "release_status": "Report, reference-agent starter kit and dataset available; competition originated in 2025, paper first posted May 2026.",
+      "notes": "",
+      "sources": [
+        "https://arxiv.org/abs/2605.29512",
+        "https://github.com/mind-games-challenge/mindgames-starter-kit",
+        "https://huggingface.co/datasets/mindgameschallenge/MGC2025"
+      ]
+    },
+    {
+      "name": "SCOPE / CrossFPS",
+      "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models",
+      "date": "2026-05-22",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Model": "FPS World Model, Spatially Selective Action Conditioning, Cross-Game Transfer",
+        "Dataset": "CrossFPS, 69K Clips, 7 FPS Games, Frame-Aligned Controller Signals"
+      },
+      "summary": "Action-conditioned FPS world model with spatially selective control; CrossFPS provides 69K clips from seven games with frame-aligned 10-DoF controller signals.",
+      "paper_url": "https://arxiv.org/abs/2605.23345",
+      "project_url": "https://z2tong.github.io/SCOPE/",
+      "repository_url": "https://github.com/z2tong/SCOPE",
+      "dataset_urls": [
+        "https://huggingface.co/datasets/zizhaotong/CrossFPS-train"
+      ],
+      "release_status": "Code and CrossFPS training split available; a world simulator, not an autonomous game-playing policy.",
+      "notes": "",
+      "sources": [
+        "https://arxiv.org/abs/2605.23345",
+        "https://z2tong.github.io/SCOPE/",
+        "https://github.com/z2tong/SCOPE",
+        "https://huggingface.co/datasets/zizhaotong/CrossFPS-train"
+      ]
+    },
+    {
+      "name": "APEX",
+      "title": "APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents",
+      "date": "2026-05-20",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Harness",
+      "categories": [
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Harness": "Strategy DAG, Exploration Management, Cross-Episode Self-Evolution, Jericho"
+      },
+      "summary": "Maintains a directed acyclic strategy map with fork discovery and exploration-aware policy selection to prevent exploration collapse across repeated Jericho text-adventure episodes, without updating model weights.",
+      "paper_url": "https://arxiv.org/abs/2605.21240",
+      "project_url": null,
+      "repository_url": "https://github.com/liushiliushi/APEX1",
+      "dataset_urls": [],
+      "release_status": "code: Author-linked public repository verified; data: No standalone downloadable dataset release verified in this review; weights: No downloadable model weights verified in this review",
+      "notes": "Evaluated on nine Jericho games and WebArena. Code URL explicitly linked by the paper.",
+      "sources": [
+        "https://arxiv.org/abs/2605.21240",
+        "https://arxiv.org/html/2605.21240v1",
+        "https://github.com/liushiliushi/APEX1"
+      ]
+    },
+    {
+      "name": "SPIKE",
+      "title": "SPIKE: An Adaptive Dual Controller Framework for Cost-Efficient Long-Horizon Game Agents",
+      "date": "2026-05-18",
+      "date_basis": "arXiv v1",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Harness",
+      "categories": [
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Harness": "Adaptive Dual Controllers, Event-Triggered Planning, Memory, Stardew Valley"
+      },
+      "summary": "Uses event-triggered strategic planning, fast reactive execution, and controller-specific memory to reduce token and latency costs in long-horizon Stardew Valley tasks.",
+      "paper_url": "https://arxiv.org/abs/2605.18636",
+      "project_url": "https://wencanjiang.github.io/projects/SPIKE/",
+      "repository_url": "https://github.com/wencanjiang/SPIKE",
+      "dataset_urls": [],
+      "release_status": "Source code available.",
+      "notes": "Evaluated on existing StarDojo Lite-100; do not classify as a new benchmark or a trained new foundation model.",
+      "sources": [
+        "https://arxiv.org/abs/2605.18636",
+        "https://wencanjiang.github.io/projects/SPIKE/",
+        "https://github.com/wencanjiang/SPIKE"
+      ]
+    },
+    {
+      "name": "Agora-1 (Odyssey)",
+      "title": "Agora-1: The Multi-Agent World Model",
+      "date": "2026-05-18",
+      "date_basis": "Official research announcement date",
+      "venue_or_source_type": "Research announcement",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "Multiplayer WM, Shared Simulation, Separate State/Rendering, GoldenEye"
+      },
+      "summary": "A multiplayer world-model research preview based on GoldenEye that separates learned state evolution from rendering, maintaining a shared simulation for up to four simultaneous participants.",
+      "paper_url": null,
+      "project_url": "https://odyssey.systems/introducing-agora-1",
+      "repository_url": null,
+      "dataset_urls": [],
+      "release_status": "code: No author-linked public code release verified; data: No standalone downloadable dataset release verified in this review; weights: No downloadable model weights verified in this review",
+      "notes": "Official announcement dates release May 18, not May 19 as some secondary reports say. Treat this as a learned simulator, not evidence of generalist gameplay competence.",
+      "sources": [
+        "https://odyssey.systems/introducing-agora-1"
+      ]
+    },
+    {
+      "name": "ReactiveGWM",
+      "title": "ReactiveGWM: Flexible Control and NPC Reactivity in Game World Models",
+      "date": "2026-05-14",
+      "date_basis": "arXiv v1; v2 code released September 29 and paper revised October 5",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "Reactive NPCs, Spatial Character Binding, Flexible Action/Rule Control; v2 Oct 2026"
+      },
+      "summary": "Uses character-specific spatial binding and unified action or NPC-rule conditioning to generate reactive multi-character gameplay with flexible control assignments.",
+      "paper_url": "https://arxiv.org/abs/2605.15256",
+      "project_url": "https://inv-wzq.github.io/ReactiveGWM/",
+      "repository_url": "https://github.com/INV-WZQ/ReactiveGWM",
+      "dataset_urls": [],
+      "release_status": "Training/inference code and Hugging Face model/data support are released; current main is v2 and original implementation is retained on v1 branch.",
+      "notes": "Use current arXiv title. Original May title was 'Steering NPC in Reactive Game World Models'. Project site remains on the older page branch, so current arXiv and main README are preferable for v2 claims. Raw external control and NPC reactivity do not make this a native-action game-playing WAM policy.",
+      "sources": [
+        "https://arxiv.org/abs/2605.15256",
+        "https://github.com/INV-WZQ/ReactiveGWM"
+      ],
+      "latest_paper_revision": "2026-10-05",
+      "model_urls": [
+        "https://huggingface.co/INV-WZQ/ReactiveGWM-v2-Models"
+      ]
+    },
+    {
+      "name": "Continual Harness",
+      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+      "date": "2026-05-11",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Harness",
+      "categories": [
+        "Harness"
+      ],
+      "keywords_by_category": {
+        "Harness": "Reset-Free Adaptation, Prompts, Subagents, Skills, Memory, Pokémon"
+      },
+      "summary": "Reset-free online refinement of prompts, subagents, skills, and memory during Pokemon play; a separate process-reward co-learning experiment also updates an open-source model.",
+      "paper_url": "https://arxiv.org/abs/2605.09998",
+      "project_url": "https://sethkarten.ai/continual-harness/",
+      "repository_url": "https://github.com/sethkarten/continual-harness",
+      "dataset_urls": [],
+      "release_status": "code: Author-linked public repository verified; data: No standalone downloadable dataset release verified in this review; weights: No downloadable model weights verified in this review",
+      "notes": "Do not conflate its earlier human-in-the-loop Gemini Plays Pokemon completions with autonomous Continual Harness results. The primary paper evaluates Pokemon Red and Emerald; an official follow-up page at https://continual-harness.github.io/ reports ARC-AGI-3 experiments.",
+      "sources": [
+        "https://arxiv.org/abs/2605.09998",
+        "https://sethkarten.ai/continual-harness/",
+        "https://github.com/sethkarten/continual-harness"
+      ]
+    },
+    {
+      "name": "Agent Island",
+      "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
+      "date": "2026-05-05",
+      "date_basis": "First arXiv submission date",
+      "venue_or_source_type": "arXiv",
+      "primary_category": "Benchmark",
+      "categories": [
+        "Benchmark",
+        "Dataset"
+      ],
+      "keywords_by_category": {
+        "Benchmark": "Social Reasoning, Adaptive Opponents, Uncertainty-Aware Skill Ranking",
+        "Dataset": "Public Multiagent Game Logs, Dialogue, Voting, Behavior Analysis"
+      },
+      "summary": "Dynamic multiplayer evaluation of cooperation, persuasion and conflict, with uncertainty-aware skill ranking and public game logs.",
+      "paper_url": "https://arxiv.org/abs/2605.04312",
+      "project_url": "https://www.agentisland.ai/",
+      "repository_url": null,
+      "dataset_urls": [
+        "https://www.agentisland.ai/logs"
+      ],
+      "release_status": "Paper, live benchmark and public logs available.",
+      "notes": "",
+      "sources": [
+        "https://arxiv.org/abs/2605.04312",
+        "https://www.agentisland.ai/",
+        "https://www.agentisland.ai/logs"
+      ]
+    },
+    {
+      "name": "Odysseus",
+      "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
+      "date": "2026-05-01",
+      "date_basis": "First arXiv submission date; COLM 2026 acceptance identified in the official training repository",
+      "venue_or_source_type": "COLM 2026",
+      "primary_category": "Model",
+      "categories": [
+        "Model"
+      ],
+      "keywords_by_category": {
+        "Model": "VLM Policy, PPO, Turn-Level CNN Critic, 100+ Turns, Mario, Cross-Game Transfer"
+      },
+      "summary": "Trains VLM policies for long-horizon Super Mario Land gameplay using adapted PPO, a lightweight turn-level critic, positive-advantage filtering, and multi-level curriculum sampling. The study evaluates in-game and cross-game generalization while checking retention of general-domain capabilities.",
+      "paper_url": "https://arxiv.org/abs/2605.00347",
+      "project_url": "https://odysseus-project.github.io/",
+      "repository_url": "https://github.com/odysseus-project/odysseus-mario-training",
+      "dataset_urls": [],
+      "release_status": "Official RL training repository, companion evaluation repository, and Odysseus/Odysseus-Zero model checkpoints are public. The training README notes that GPU training and checkpoint export remain unvalidated for this code release.",
+      "notes": "Distinct from the Odyssey company world-model releases and AgentOdyssey. Classified by its learned VLM policy and RL method; the training framework is not a separate deployment-time harness contribution. The released training presets initialize from Qwen3-VL-8B-Instruct; the paper also studies supervised initialization.",
+      "sources": [
+        "https://arxiv.org/abs/2605.00347",
+        "https://arxiv.org/html/2605.00347v1",
+        "https://odysseus-project.github.io/",
+        "https://github.com/odysseus-project/odysseus-mario-training",
+        "https://github.com/odysseus-project/odysseus-mario-evaluation",
+        "https://huggingface.co/collections/Odysseus-Project/odysseus"
+      ],
+      "model_urls": [
+        "https://huggingface.co/collections/Odysseus-Project/odysseus"
+      ]
+    }
+  ],
+  "name_disambiguation": [
+    {
+      "names": [
+        "Odysseus",
+        "Odyssey-3",
+        "Agora-1 (Odyssey)",
+        "Agora-2 (Odyssey)",
+        "AgentOdyssey"
+      ],
+      "note": "Odysseus is the Mario VLM reinforcement-learning paper (arXiv:2605.00347). The Odyssey company releases and AgentOdyssey benchmark are distinct works; the 2024 Minecraft Odyssey is not counted as a new 2026 release."
+    },
+    {
+      "names": [
+        "SpireBench",
+        "SpireClimb",
+        "Preference Model Slay the Spire benchmark",
+        "AgenticSTS"
+      ],
+      "note": "These are separate studies with different games, interfaces, and protocols. The SpireBench paper (arXiv:2610.12596) is also distinct from the independently developed spirebench.com / HermesBridge project."
+    }
+  ]
+}
