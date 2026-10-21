@@ -80,11 +80,9 @@ h1 span { color: #b8d4bc; }
 .film-section { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 45px; padding-block: 52px 55px; border-bottom: 1px solid var(--line); }
 .film-intro h2 { margin-top: 16px; font-size: 32px; }
 .film-intro > p:not(.eyebrow) { margin-top: 17px; font-size: 13px; color: var(--muted); }
-.film-intro .film-language { padding-top: 18px; border-top: 1px solid var(--line); font-size: 11px !important; line-height: 1.8; }
 .film-content { min-width: 0; }
 .film-player video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #10141b; border: 1px solid #33434a; border-radius: 4px; }
 .film-player figcaption { display: flex; flex-wrap: wrap; gap: 10px 20px; padding-block: 14px; font-size: 10px; color: var(--muted); }
-.film-player figcaption > span { margin-right: auto; }
 .film-player figcaption a { color: var(--green); }
 .film-player figcaption a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .film-transcript { border-top: 1px solid var(--line); font-size: 12px; }
@@ -95,6 +93,7 @@ h1 span { color: #b8d4bc; }
 .film-transcript li { padding: 0 0 17px 5px; }
 .film-transcript h3 { font-size: 16px; margin-bottom: 7px; }
 .film-transcript p + p { margin-top: 5px; color: var(--muted); }
+.transcript-download { padding-bottom: 14px; color: var(--green); }
 .research-map { display: grid; grid-template-columns: 230px minmax(0,1fr); gap: 45px; padding-block: 65px 75px; }
 h2 { font-size: 34px; letter-spacing: -.045em; line-height: 1.16; }
 .map-intro h2 { margin-top: 18px; font-size: 30px; }
@@ -264,10 +263,7 @@ h2 { font-size: 34px; letter-spacing: -.045em; line-height: 1.16; }
   .author-affiliations p + p { margin-top: 4px; }
   .film-section { display: block; padding-block: 35px; }
   .film-intro h2 br { display: none; }
-  .film-intro .film-language { border-top: 0; padding-top: 0; }
-  .film-intro .film-language br { display: none; }
   .film-content { margin-top: 22px; }
-  .film-player figcaption > span { flex-basis: 100%; }
   .research-map { display: block; padding-block: 38px; }
   .map-intro { margin-bottom: 24px; }
   .map-intro h2 br { display: none; }
