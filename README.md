@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/">
-    <img src="docs/assets/repository-banner.svg" alt="Towards Generalist Game Players — players that learn to act, worlds that help them grow" width="100%">
+    <img src="docs/assets/repository-banner.svg" alt="Towards Generalist Game Agents — agents that learn to act, worlds that help them grow" width="100%">
   </a>
 </p>
 
-<h1 align="center">Towards Generalist Game Players</h1>
-<h3 align="center">A Survey of Foundation Models in the Game Multiverse</h3>
+<h1 align="center">Towards Generalist Game Agents</h1>
+<h3 align="center">A Survey of Foundation Models in Virtual Worlds</h3>
 
 <p align="center">
-  <strong>Foundation models as players. Game worlds as environments for learning.</strong><br>
+  <strong>Foundation models as agents. Game worlds as environments for learning.</strong><br>
   If this collection helps your research, consider giving it a ⭐ to help others find it.
 </p>
 
@@ -47,7 +47,7 @@ How does one player become more capable across a wider range of games? This surv
 
 Our focus is **players and the environments that help them grow**: interaction, planning, memory, control, adaptation, and transfer. World models and generated environments enter this picture through their potential to support player training, planning, or evaluation. Their value depends on reliable interaction and measurable player improvement.
 
-The collection accompanies **Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse**. The [public arXiv preprint](https://arxiv.org/abs/2605.09965) retains the title *An Investigation of Foundation Models in the Game Multiverse*. The survey covers research through April 2026; the living collection includes separately documented October additions.
+The collection accompanies **Towards Generalist Game Agents: A Survey of Foundation Models in Virtual Worlds**. Read the [paper on arXiv](https://arxiv.org/abs/2605.09965). The survey covers research through April 2026; the living collection includes separately documented October additions.
 
 ## Four eras of game-playing AI
 
@@ -431,7 +431,7 @@ If this survey supports your research, cite the public preprint. [Download BibTe
 
 ```bibtex
 @article{zhang2026towards,
-  title={Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse},
+  title={Towards Generalist Game Agents: A Survey of Foundation Models in Virtual Worlds},
   author={Zhang, Kuan and Liu, Dongchen and Zhao, Qiyue and Xin, Tianyu and Su, Yue and Wang, Haisheng and Yin, Han and Ma, Hongbo and Li, Peize and Gu, Tianjun and Wu, Xiangnan and Zhang, Xinran and Li, Yongxuan and Chen, Zirong and Li, Yiming},
   journal={arXiv preprint arXiv:2605.09965},
   year={2026},
