@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Towards Generalist Game Agents</h1>
+<h1 align="center">[TMLR 2026] Towards Generalist Game Agents</h1>
 <h3 align="center">A Survey of Foundation Models in Virtual Worlds</h3>
 
 <p align="center">
