@@ -13,7 +13,7 @@ Open <http://127.0.0.1:8765/>. Use an HTTP server rather than opening the HTML f
 
 `README.md` is the canonical reading list. `data/literature-2026-10.json` supplies the verified October metadata. `scripts/build_catalog.py` merges and deduplicates them into `docs/data/catalog.json`. Regenerate this file after editing the list, including edits that change source line numbers. The website identifies supporting environment work without removing it from the collection.
 
-The prose and interactions live in `docs/index.html`, `docs/app.js`, and `docs/styles.css`. The transfer lab is an independent scripted illustration in `docs/transfer-lab.js` and `docs/transfer-lab.css`. `docs/data/survey.bib` contains the public preprint citation. Original artwork and its prompt are documented in `docs/assets/README.md`.
+The prose and interactions live in `docs/index.html`, `docs/app.js`, and `docs/styles.css`. The transfer lab is an independent scripted illustration in `docs/transfer-lab.js` and `docs/transfer-lab.css`. `docs/data/survey.bib` contains the formal TMLR citation verified against the OpenReview BibTeX record. Keep the README and inline HTML fallback identical to this file. Original artwork and its prompt are documented in `docs/assets/README.md`.
 
 ## Check before publishing
 
@@ -29,4 +29,4 @@ Tests require Node.js 22 or later; no package installation is necessary. Check t
 
 In the repository's **Settings → Pages**, the publishing source is **Deploy from a branch**, branch **main**, folder **/docs**. `.nojekyll` keeps the site static. A change merged into `main` triggers the Pages build. Keep relative asset paths so the project also works below the repository's URL prefix. When changing the page structure, CSS, or entry script, update the asset version query in `index.html` and `credits.html` together so returning browsers do not combine new HTML with cached, incompatible assets.
 
-The manuscript and the living collection have different cutoffs. The site and its BibTeX citation use the author-approved revised survey title; the arXiv identifier and other bibliographic metadata remain unchanged. The existing video and its verbatim transcript retain the title used when the video was recorded. Do not add an acceptance badge until a publication decision is verified.
+The manuscript and the living collection have different cutoffs. The site and its BibTeX citation use the formal TMLR publication metadata from https://openreview.net/forum?id=SDkEq8Fzvl, verified on 9 November 2026. The canonical citation uses the OpenReview URL and does not assign the arXiv DOI to the journal publication. The existing video and its verbatim transcript retain the title used when the video was recorded. Do not add an acceptance badge until a publication decision is verified.

@@ -427,15 +427,15 @@ Suggest a [paper or environment](https://github.com/THUSI-Lab/Awesome-LFMs-Play-
 
 ## 🔗 Citation
 
-If this survey supports your research, cite the public preprint. [Download BibTeX](docs/data/survey.bib).
+If this survey supports your research, cite the TMLR publication ([OpenReview](https://openreview.net/forum?id=SDkEq8Fzvl)). [Download BibTeX](docs/data/survey.bib).
 
 ```bibtex
 @article{zhang2026towards,
   title={Towards Generalist Game Agents: A Survey of Foundation Models in Virtual Worlds},
-  author={Zhang, Kuan and Liu, Dongchen and Zhao, Qiyue and Xin, Tianyu and Su, Yue and Wang, Haisheng and Yin, Han and Ma, Hongbo and Li, Peize and Gu, Tianjun and Wu, Xiangnan and Zhang, Xinran and Li, Yongxuan and Chen, Zirong and Li, Yiming},
-  journal={arXiv preprint arXiv:2605.09965},
+  author={Kuan Zhang and Dongchen Liu and Qiyue Zhao and Tianyu Xin and Yue Su and Haisheng Wang and Han Yin and Hongbo Ma and Peize Li and Tianjun Gu and Xiangnan Wu and Xinran Zhang and Yongxuan Li and Zirong Chen and Yiming Li},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
   year={2026},
-  doi={10.48550/arXiv.2605.09965},
-  url={https://arxiv.org/abs/2605.09965}
+  url={https://openreview.net/forum?id=SDkEq8Fzvl}
 }
 ```
