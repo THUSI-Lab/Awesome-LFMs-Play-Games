@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2605.09965"><img src="https://img.shields.io/badge/arXiv-2605.09965-28352F?style=flat-square&amp;labelColor=18201C" alt="Paper: arXiv 2605.09965"></a>
+  <a href="https://openreview.net/forum?id=SDkEq8Fzvl"><img src="https://img.shields.io/badge/TMLR_2026-Accepted-7C927D?style=flat-square&amp;labelColor=28352F" alt="Accepted at TMLR 2026 — OpenReview"></a> <a href="https://arxiv.org/abs/2605.09965"><img src="https://img.shields.io/badge/arXiv-2605.09965-28352F?style=flat-square&amp;labelColor=18201C" alt="Paper: arXiv 2605.09965"></a>
   <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/"><img src="https://img.shields.io/badge/Project-Page-7C927D?style=flat-square&amp;labelColor=28352F" alt="Project page"></a>
   <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/#library"><img src="https://img.shields.io/badge/Resources-210-BA9447?style=flat-square&amp;labelColor=28352F" alt="210 unique resources"></a>
   <a href="https://thusi-lab.github.io/Awesome-LFMs-Play-Games/?source=update#library"><img src="https://img.shields.io/badge/October_additions-32-7C927D?style=flat-square&amp;labelColor=28352F" alt="32 October additions"></a>

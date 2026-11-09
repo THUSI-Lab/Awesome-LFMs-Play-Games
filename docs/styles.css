@@ -57,6 +57,8 @@ a.text-link:hover, .paper-links a:hover { text-decoration: underline; text-under
 h1 { font-size: clamp(43px, 5.1vw, 72px); line-height: 1.08; letter-spacing: -.06em; font-weight: 500; }
 h1 span { color: #b8d4bc; }
 .paper-subtitle { margin-top: 17px; font-size: 15px; color: #d2d9d4; }
+.publication-badge { display: inline-flex; align-items: center; gap: 7px; margin-top: 16px; padding: 7px 12px; border: 1px solid #b8d4bc80; border-radius: 999px; background: #15231be6; color: #d8ead8; font-size: 12px; line-height: 1.5; }
+.publication-badge:hover { background: #283f2f; border-color: #b8d4bc; }
 .cover-intro { margin-top: 33px; font-size: 20px; font-weight: 500; letter-spacing: -.025em; }
 .cover-description { max-width: 530px; margin-top: 10px; font-size: 14px; color: #d2d9d4; }
 .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin-top: 25px; }
