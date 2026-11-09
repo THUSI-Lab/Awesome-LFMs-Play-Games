@@ -17,7 +17,7 @@ document.addEventListener('keydown', event => { if(event.key === 'Escape') { $('
 initTransferLab($('#transfer-lab'));
 
 let fullCitation = $('#citation-text').textContent;
-fetch('data/survey.bib').then(response => { if(!response.ok) throw Error('Citation unavailable'); return response.text(); }).then(text => {
+fetch('data/survey.bib?v=20261109-tmlr', {cache: 'no-cache'}).then(response => { if(!response.ok) throw Error('Citation unavailable'); return response.text(); }).then(text => {
   fullCitation = text.trim(); $('#citation-text').textContent = fullCitation;
 }).catch(() => {});
 $('#copy-citation').addEventListener('click', async () => {
